@@ -1,7 +1,7 @@
 
 # Practical Software Metrics for Teams
 
-I was asked recently about metrics to help measure high functioning teams. I answered poorly.  So poorly that I felt it useful to recount my experience with metrics in the past.  A trip down memory lane as it were.  My desire is that this article makes you think, and hopefully, that you act.  Whether you agree with my points or not, I'd consider you taking an action a success.  
+I was asked recently about metrics to help measure high functioning teams. I answered poorly.  So poorly that I felt it useful to recount my experience, to you dearest reader, with metrics in the past.  A trip down memory lane as it were.  My desire is that this article makes you think, and hopefully, that you act.  Whether you agree with my points or not, I'd consider you taking one single action in your workplace a success.
 
 Keep in mind that I've only lightly tread on each of the following points; most of  these are topics that are broad and deep, and often don't have only one single interpretation.  Ideally they would be elaborated upon further, but I'm very mindful of the saying "I'm sorry I didn't write less, but I ran out of time" (a contortion of Mark Twain's quote).  So, this article provides only a cursory guide. I'll look at a deeper dive into a selection of topics some time in the future and as feedback, or my whim, guides me.
 
@@ -51,7 +51,7 @@ I realise that may be a vagueness here of what Readiness means, but the team sho
 * 3+ months out of scheduled work items. Broadly scoped.
 
 <center>
-<img src="./RequirementsScopeOfUncertainty.png" width="" />
+<img src="./General images/RequirementsScopeOfUncertainty.png" width="" />
 </center>
 
 
@@ -88,7 +88,7 @@ _Metric: How much work is remaining to complete in your current projects?_
 
 
 <center>
-<img src="./image-3.png" width="400  " />
+<img src="./General images/ProjectBurndown.drawio.png" />
 </center>
 
 
@@ -134,7 +134,7 @@ _Metric: How many minutes or hours between code commit and a push to production 
 There are good ways to remedy this, but we'll leave that out of the scope of this article.
 
 <center>
-<img src="./scrum.png" width="350" />
+<img src="./General images/scrum.png" width="350" />
 </center>
 
     
@@ -155,7 +155,7 @@ How solid are the features that you have delivered?
 These are important metrics and are useful to contrast against the Quantity metric as well as the Readiness metrics above.  A high Quantity metric indicating a large volume of features that is coupled together with a low Quality metic (I mean that you have a large volume of bugs per feature) is not great, but it beats a low Quantity _and_ low Quality metric.
 
 <center>
-<img src="./QualitySpeedMatrix.png" width="400px" />
+<img src="./General images/QualitySpeedMatrix.png" width="400px" />
 </center>
 
 **Helpdesk sentiment**:
@@ -228,7 +228,7 @@ Some good rules of thumb that I've found are;
  2) Two or three 30-minute meetings in a week can be a lot more effective than one lengthy 2 or 3-hour meeting.
 
 <center>
-<img src="./MeetingTimes.png" width="350">
+<img src="./General images/MeetingTimes.png" width="350">
 </center>
 
 Repetitive meeting topics going over the same ground can be partly remedied by documenting the meeting content and outcomes so that they can be referred to, by having a strong meeting facilitator who politely refers to the previous meeting notes, and also sticking to the meeting purpose.
@@ -292,4 +292,4 @@ And that's a wrap.  I leave you with this quote below, again by Mark Twain.  Kee
 
 
 
-I hope this was a useful use of your time.  I cut this article short and only included the more important points, because "I'm sorry I didn't write less but I ran out of time" keeps ringing in my head (and even then I know its too long).  I'm curious as to what metrics you have used in the past; please elaborate on your own thoughts either directly (andreas.kacofegitis@gmail.com) or post below.  The art here is not to know what to do, but when and how you do it; your actions.  Instrumenting change is a fun and exciting challenge, but it's probably best to change a little at a time.  Good luck.
+This article was cut short and only included what I felt are some of the more important points, because "I'm sorry I didn't write less but I ran out of time" keeps ringing in my head (and even then I know its too long).  I'm curious as to what metrics you have used in the past; please elaborate on your own thoughts either directly (andreas.kacofegitis@gmail.com) or post below.  The art here is not to know what to do, but when and how you do it; your actions.  Instrumenting change is a fun and exciting challenge, but it's probably best to change a little at a time.  Good luck.
