@@ -42,7 +42,7 @@ Work items planned for delivery in the current iteration (approx 2 weeks) should
 
 How ready are your teams?  Count the total items in the current iteration and determine which of these items are Ready.  All items in the current iteration should be ready (although for teams that prefer, they could refine thier work on a weekly basis in order to keep the information more current and pertinent).  A further 2 weeks should be nearly ready and planned, and a further month or two should be scheduled, but not completely ready.
 
-I realise that may be a vagueness here of what Readiness means, but the team should get together with the Product Owner, UX, and Architects to agree on what Readiness means for the following stages: 
+I realise that there may be a vagueness here of what Readiness means, but the team should get together with the Product Owner, UX, and Architects to agree on what Readiness means for the following stages: 
 
 * In-iteration (1) work items.  Ready.
 * Next iteration (2) work items.  Ready.
@@ -53,10 +53,6 @@ I realise that may be a vagueness here of what Readiness means, but the team sho
 <center>
 <img src="./General images/RequirementsScopeOfUncertainty.png" width="" />
 </center>
-
-
-[TODO: explain the scheduling of longer term works vs the immediate pieces of work]
-Don't take the above to mean that the scheduling of programmes work shouldn't occur, because it should.  Often these larger programmes of work can take many months, if not longer.  Readiness of work in this context refers to work items that are scheduled into the current iteration, or about to be scheduled in to the couple of iterations. 
 
 A word to the wise; don't expect perfection of Readiness; expect best effort. Questions regarding fine-tuning of requirements will always arise during implementation and this is OK.  However, if the team isn't aware of all the workflows that the feature will achieve, doesn't understand UX, doesn't understand architectural concerns yet, and the potential value of their work, then that item is not ready.
 
