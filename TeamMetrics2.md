@@ -44,14 +44,15 @@ How ready are your teams?  Count the total items in the current iteration and de
 
 I realise that there may be a vagueness here of what Readiness means, but the team should get together with the Product Owner, UX, and Architects to agree on what Readiness means for the following stages: 
 
-* In-iteration (1) work items.  Ready.
-* Next iteration (2) work items.  Ready.
-* Next iteration (3) work items. Getting Ready.
-* 1-2 months out of scheduled work items.  Getting ready.
-* 3+ months out of scheduled work items. Broadly scoped.
+- _In-iteration_.  Must be Ready.
+- _Next iteration_.  Ready.
+- _1-2 months out_ of scheduled work items.  Getting ready.
+- _3+ months out_ of scheduled work items. Broadly scoped.
 
 <center>
 <img src="./General images/RequirementsScopeOfUncertainty.png" width="" />
+
+<em>The closer to being worked on, the more ready your work should be.  Agile is about making progress with imperfect information.  As the work gets closer, the less imperfect we expect the information.</em>
 </center>
 
 A word to the wise; don't expect perfection of Readiness; expect best effort. Questions regarding fine-tuning of requirements will always arise during implementation and this is OK.  However, if the team isn't aware of all the workflows that the feature will achieve, doesn't understand UX, doesn't understand architectural concerns yet, and the potential value of their work, then that item is not ready.

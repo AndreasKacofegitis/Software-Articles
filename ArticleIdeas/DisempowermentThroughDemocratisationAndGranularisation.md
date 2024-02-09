@@ -1,0 +1,1 @@
+Discuss the way that roles can be disempowered by democratising them.  To do this the tactic is introducing others into the decision making process to influence the direction of the conversation.  The other way to break the problem apart into multiple, smaller problems and distribute the problem to different people who will give the answer that is needed.
