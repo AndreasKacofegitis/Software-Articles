@@ -21,10 +21,11 @@ The word metric has its origins in the Greek language; derived from the word "me
 Teams are the hallmark of your success; it's always people and I hope that it will always be people who are the pivot between success and failure.  The immediate thought of gauging team effectiveness through metrics may seem a little contrived and even a pointless managerial, bureaucratic, exercise.  Consider though the statement "I lead a high performing team".  And then ask "By what estimation do I believe that my team is high performing?".
 
 ### How to use these metrics
-Firstly, I need to strongly emphasise that I'm a little bit wary of these kind of metrics because they can _easily be mis-used_.  These should be taken with a very large dose of context and also in combination with each other, and also other metrics that you may think of, not to mention of course your gut feel.  This is to say that it wouldn't be a good idea to take just one, or even three, of these metrics and to use them solely to determine the strength of your team.  That would be a mistake and almost certainly give you a poor estimation, either to the upside or the downside, of your team's performance.
+Firstly, I need to strongly emphasise that I'm a little bit wary of these kind of metrics because they can _easily be mis-used_.  These should be taken with a very large dose of context and also in combination with each other, and also other metrics and observations that you may think, or be aware, of.  This is to say that it wouldn't be a good idea to take just one, or even three, of these metrics and to use them solely to determine the strength of your team.  That would be a mistake and almost certainly give you a poor estimation, either to the upside or the downside, of your team's performance.
 
 On the other hand, to attempt to track all these metrics suggested below, is itself probably unwise too.  It's probable that you already use a few of these metrics. But if you read the below and find some metrics that would be beneficial to your workplace, choose 2 or 3, and go from there.  The below is not a prescription, so please don't treat it as such.  Treating this as a prespription will likely cause more issues that you're currently experiencing :)  
 
+In addition, it's worth noting the importance of educating stakeholders on the appropriate use of these metrics. This educational effort should target the functions, departments, or groups that actively consume these metrics.  Information radiators as metrics is the concept to pursue.  This is in stark contrast to utilising them as punitive tools to admonish teams with.
 
 Some useful Team metrics include:
 
@@ -79,7 +80,14 @@ Burndowns are useful because they can raise confidence, or otherwise, of realist
 
 This is a key metric to share with the team and stakeholders to keep them informed.  
 
-Some projects can last over a year and having information about how they are tracking is very useful. 
+Some projects can last over a year and having information about how they are tracking is very useful; critical in fact.
+
+Other useful metrics that are useful to include in burndowns are:
+- scope change
+- amount of work completed
+- re-estimated work
+
+The below diagram illustrates these metrics.  Scope change can be gleaned by considering the following: if there is no scope change in a project, there should be an equal drop in the amount of remaining work as there is an increase in the amount of closed work.  However, if you see that the amount of closed work is trending well, but the amount of remaining work to do is flat-lining or similar, this is very likely due to scope changes, unforseen work, re-estimations to the upside.  This is the case the diagram where the "Closed" trajectory is not mirrored by the "Open" trajectory.
 
 _Metric: How much work is remaining to complete in your current projects?_
 
@@ -99,9 +107,12 @@ Are you delivering a consistent number of features each release cycle?  There ma
 
 _Metric: Quantity over time._
 _Measure: Categorise and tally work items that a team works on broken into small, medium, or large chunks._ 
+
+
+### Size variation
 _Measure: How consistently sized are the work items in a typical iteration?_ 
 
-I'm personally in favor of small work items with little variation in size, when possible.  This allows for more accuracy of definition and Readiness,  a higher 'completion rate' and feeling of productivity, better quality, and of course, better _consistency_.  There are downsides, but these can be mitigated by well-intending, eager teams.
+I'm personally in favor of small work items with little variation in size, when possible.  This allows for more predictability, ability to get the work 'Ready',  a higher 'completion rate' and feeling of productivity, better quality, and of course, better _consistency_.  There are downsides, but these can be mitigated by well-intending, eager teams.
 
 ### DevOps
 **Commit activity** over a period is a short cut indicator towards developer productivity.  Short sharp, small, and constant commits are indicative of a pragmatic, process oriented team.  Several meaningful check-ins per day is good.
