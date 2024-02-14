@@ -17,6 +17,7 @@ I've utilised metrics in organisations in the past for the following categories:
 The word metric has its origins in the Greek language; derived from the word "metron" (μέτρον), used in a variety of contexts, but broadly meaning to 'measure', to 'count'.  For the purposes of this article, we'll use the term to mean something that can be measured, and also have a number attributed to it as a result of the measurement.
 
 
+
 ## Metrics for team performance
 Teams are the hallmark of your success; it's always people and I hope that it will always be people who are the pivot between success and failure.  The immediate thought of gauging team effectiveness through metrics may seem a little contrived and even a pointless managerial, bureaucratic, exercise.  Consider though the statement "I lead a high performing team".  And then ask "By what estimation do I believe that my team is high performing?".
 
@@ -31,24 +32,21 @@ Some useful Team metrics include:
 
 ## Ready?  The beginning of the funnel
 
-**Amount of Ready work**: Ready work means that a feature is understood by the development team such that they can implement it without guesswork; workflows and their nuances are understood, UX is ready, Product has explained the requirements, the use cases, the key Personas, and also the value of the feature. 
+**Amount of Ready work**: 
+
+_Metric: How many weeks of ready work are in your backlog?  Approximately 2-4 weeks of ready work is good._
 
 I very much like this metric because it is often a good indicator of healthy productivity, and that teams know what their immediate goals are.  Work not being deemed as Ready will be implemented less efficiently, and probably less accurately than otherwise.
 
-Productivity is downstream of work readiness.
+Ready work means that a feature is understood by the development team such that they can implement it without guesswork; workflows and their nuances are understood, UX is ready, Product has explained the requirements, the use cases, the key Personas, and also the value of the feature. Ultimately it is up to the team to determine what ready means to them and negotiate this with the Product Owner/Manager while ensuring that the departmental goals and business strategy are honoured.
 
-But how much ready work is necessary?  Just enough - enough so that the team know that they can progress on to the next set of work-items and have a quick conversation to clarify some fine-grained detail, and then begin the implementation in ernest.  Work items further out on the scheduling timeline don't need to be, and shouldn't be, super-refined.  Think of Work Readiness as a narrowing scope where the nearer the scheduled work item gets to the current iteration, the more refined it should be.
+>Productivity is downstream of work readiness.
 
-Work items planned for delivery in the current iteration (approx 2 weeks) should be completely Ready (look up Defintiion of Ready on your favorite search engine).
+But how much ready work is necessary?  Just enough - enough so that the team know that they can progress on to the next set of work-items and have a quick conversation to clarify some fine-grained detail, and then begin the implementation in ernest.  Work items further out on the scheduling timeline don't need to be, and shouldn't be, super-refined.  Think of Work Readiness as a narrowing scope where the nearer the scheduled work item gets to the current iteration, the more refined it should be.  Having all items in a backlog ready is not much better than zero items in the backlog ready; the problem is different, but both cases cause great innefficiencies and delays.
 
-How ready are your teams?  Count the total items in the current iteration and determine which of these items are Ready.  All items in the current iteration should be ready (although for teams that prefer, they could refine thier work on a weekly basis in order to keep the information more current and pertinent).  A further 2 weeks should be nearly ready and planned, and a further month or two should be scheduled, but not completely ready.
+If you have no items in your current iteration that are deemed ready, your immediate job should be to ensure that these items are ready.  It is likely that this is the most important thing that can be done to ensure productivity and accuracy. 
 
-I realise that there may be a vagueness here of what Readiness means, but the team should get together with the Product Owner, UX, and Architects to agree on what Readiness means for the following stages: 
-
-- _In-iteration_.  Must be Ready.
-- _Next iteration_.  Ready.
-- _1-2 months out_ of scheduled work items.  Getting ready.
-- _3+ months out_ of scheduled work items. Broadly scoped.
+How ready are your teams?  Count the total items in the current iteration and determine which of these items are Ready.  All items in the current iteration should be ready (although for teams that prefer, they could refine thier work on a weekly basis in order to keep the information more current and pertinent).  A further 2 weeks should be nearly ready and planned, and a further month or two should be scheduled, but not completely ready. 
 
 <center>
 <img src="./General images/RequirementsScopeOfUncertainty.png" width="" />
@@ -58,7 +56,6 @@ I realise that there may be a vagueness here of what Readiness means, but the te
 
 A word to the wise; don't expect perfection of Readiness; expect best effort. Questions regarding fine-tuning of requirements will always arise during implementation and this is OK.  However, if the team isn't aware of all the workflows that the feature will achieve, doesn't understand UX, doesn't understand architectural concerns yet, and the potential value of their work, then that item is not ready.
 
-_Metric: How many weeks of ready work are in your backlog?  Approximately 2-4 weeks of ready work is good._
 
 
 ## Delivery metrics
@@ -87,7 +84,7 @@ Other useful metrics that are useful to include in burndowns are:
 - amount of work completed
 - re-estimated work
 
-The below diagram illustrates these metrics.  Scope change can be gleaned by considering the following: if there is no scope change in a project, there should be an equal drop in the amount of remaining work as there is an increase in the amount of closed work.  However, if you see that the amount of closed work is trending well, but the amount of remaining work to do is flat-lining or similar, this is very likely due to scope changes, unforseen work, re-estimations to the upside.  This is the case the diagram where the "Closed" trajectory is not mirrored by the "Open" trajectory.
+The below diagram illustrates these metrics.  Scope change can be gleaned by considering the following: if there is no scope change in a project, there should be an equal drop in the amount of remaining work as there is an increase in the amount of closed work.  However, if you see that the amount of closed work is trending well, but the amount of remaining work to do is flat-lining or similar, this is very likely due to scope changes, unforseen work, re-estimations to the upside.  This is the case shown in the diagram where the "Closed" trajectory is not mirrored by the "Open" trajectory.
 
 _Metric: How much work is remaining to complete in your current projects?_
 
@@ -98,10 +95,19 @@ _Metric: How much work is remaining to complete in your current projects?_
 
 
 ### Quantity 
-How many features per period are you delivering?  If you have varying sizes of feature implementations, you can always tally per category e.g., 1 large feature, 2 medium, and 5 small features, plus 8 bug fixes.  Consider tracking this as an accumulating metric against your project burndown(s).
+
+<center>
+<img width="200" src="./General images/QuantityWorkItemsPerPeriod.drawio.png" />
+</center>
+
+What is the count of features per period that you are delivering?  If you have varying sizes of feature implementations, you can always tally per category e.g., 1 large feature, 2 medium, and 5 small features, plus 8 bug fixes.  Consider tracking this as an accumulating metric against your project burndown(s).
 
 ### Consistency of Quantity 
 To be predictable you don't necessarily need consistency of quantity of features, you need moreso reliability.  But consistency helps a lot.
+
+<center>
+<img width="200" src="./General images/QuantityConsistencyWorkItemsPerPeriod.drawio.png" />
+</center>
 
 Are you delivering a consistent number of features each release cycle?  There may be many different reasons for not doing so, such as inconsistent feature sizing, such as an insufficient pipeline of work that is not ready for implementation, such as team capability and capacity, but if you can tally the number of delivered features as per above, and do so over a period of time, you have a nice illuminating metric.
 
@@ -111,10 +117,15 @@ _Measure: Categorise and tally work items that a team works on broken into small
 
 ### Size variation
 _Measure: How consistently sized are the work items in a typical iteration?_ 
+<center>
+<img width="200" src="./General images/SizeVariationWorkItemsPerPeriod.drawio.png" />
+</center>
 
 I'm personally in favor of small work items with little variation in size, when possible.  This allows for more predictability, ability to get the work 'Ready',  a higher 'completion rate' and feeling of productivity, better quality, and of course, better _consistency_.  There are downsides, but these can be mitigated by well-intending, eager teams.
 
 ### DevOps
+Remember that the following metrics are intended to be indicators of high performing teams, and not necessarily of a good, healthy DevOps process; although the two conceptual domains overlap significantly.
+
 **Commit activity** over a period is a short cut indicator towards developer productivity.  Short sharp, small, and constant commits are indicative of a pragmatic, process oriented team.  Several meaningful check-ins per day is good.
 
 
@@ -129,6 +140,23 @@ How long does it take to push a fix or feature to production when you really nee
 How does this affect team performance?  If the team can't push changes to an environment without waiting hours for a build queue to complete (this used to happen especially in legacy systems), for example, they are impeded by a significant bottleneck whose downstream effects are very significant.  Simply put, a slow push to prod is just very difficult and time consuming to work around. Quality often suffers greatly as a result.
 
 _Metric: How many minutes or hours between code commit and a push to production does it take your team?_
+
+**Release cadence and Release punctuality**.
+How frequently do you release to production?  While this is still a relevant metric for Continuous Delivery shops, it is more applicable to more traditional organisations. 
+
+_Metric: Release punctuality = Release date - Intended release date_
+
+Your ideal target Release Punctuality days is zero.
+
+Your Intended release date should follow a reasonable pattern of course.  If this is not the case, then you should fix this first as it is probably a significant contributor to missed release dates.
+
+A reluctance to target more ambitious release dates, say, even monthly (although some may find this delay amusing, many organisations regard this as reasonble).  Common justifications include 'insuffient time to build a set of features', or 'lengthy regression cycles'.  Interestingly, some teams resist due to the belief that more time is needed to ensure a quality release. Fortunately, there exists a robust positive correlation between a swift release cadence and release quality. Frequent releases facilitate constant testing and reduce code churn per release, leading to improved overall quality.
+
+
+**Regression test cycle time**
+It is still common to see regression test cycles of many days to over one week.  It is unlikely that you have a high performing team if the regression test cycle takes a long period of time.  There are a few reasons for this, one of which is that while the regression is taking place, the developers are likely committing un-tested code and features.  Any bugs found and fixed during the regression cycle is unlikely to be tested properly.  Moreover, a prolonged regression test cycle means that automation tests are not broad enough, robust enough, or trusted.  And just one last point (there are more!), the potential for human error during regression testing is large.  OK... one more... it is almost certain that you don't have performance tests.  A manual regression test cycle for one person for less that 1/2 day for a large product is the maximum that you should aim for.
+
+_Metric: How long does a regression test cycle take for your product(s)?_
 
 
 ### Process and Bottlenecks
