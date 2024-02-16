@@ -1,16 +1,21 @@
 
 # Practical Software Metrics for Teams
 
-I was asked recently about metrics to help measure high functioning teams. I answered poorly.  So poorly that I felt it useful to recount my experience, to you dearest reader, with metrics in the past.  A trip down memory lane as it were.  My desire is that this article makes you think, and hopefully, that you act.  Whether you agree with my points or not, I'd consider you taking one single action in your workplace a success.
+The most effective, productive, and engaged teams that I've worked with have used many of the metrics in this article.  While it wasn't appreciated at the time, we did use metrics to drive our behaviours to improve our practice, our processes, and our behaviours. Conversely, the one organisation that resisted the building of systems to promote these metrics, interestingly, was the lowest performing organisation I've witnessed.  Is there a strong correlation between the use of metrics and team performance?  I think so.  Regardless, employing some of the following metrics in your organisation will, at least, not hurt.
 
-Keep in mind that I've only lightly tread on each of the following points; most of  these are topics that are broad and deep, and often don't have only one single interpretation.  Ideally they would be elaborated upon further, but I'm very mindful of the saying "I'm sorry I didn't write less, but I ran out of time" (a contortion of Mark Twain's quote).  So, this article provides only a cursory guide. I'll look at a deeper dive into a selection of topics some time in the future and as feedback, or my whim, guides me.
+Many of the below metrics require the actual data to back them.  It isn't the objective of this article to demonstate how to achieve this, and I generally assume that you have the data at hand.  If you don't, and there were many times that I didn't, the path to discovering the information was very fruitful and enlightening.  Often hard work, and sometimes requiring specific development time and effort.  And a great deal of persistence. But always worthwhile.
+
+My desire is that this article makes you think, and hopefully, that you act.  Whether you agree with my points or not, I'd consider you taking one single action in your workplace a success.
+
+Please keep in mind that I've only lightly tread on each of the following points; most of  these are topics that are broad and deep, and often don't have only one single interpretation.  Ideally they would be elaborated upon further, but I'm very mindful of the saying "I'm sorry I didn't write less, but I ran out of time" (a contortion of Mark Twain's quote).  Regardless, this article is long enough. I'll look at a deeper dive into a selection of topics some time in the future and as feedback, or my whim, guides me.
 
 ## Metrics
-I've utilised metrics in organisations in the past for the following categories:
+Metrics for software development, fall into the following overlapping categories:
 
 1. To measure team performance (the topic of this article)
 2. To measure the success or effectiveness of major, or significant, features
 3. To ensure software, infrastructure, and key services are running smoothly
+
 
 ## What is a metric?
 
@@ -24,13 +29,13 @@ Teams are the hallmark of your success; it's always people and I hope that it wi
 ### How to use these metrics
 Firstly, I need to strongly emphasise that I'm a little bit wary of these kind of metrics because they can _easily be mis-used_.  These should be taken with a very large dose of context and also in combination with each other, and also other metrics and observations that you may think, or be aware, of.  This is to say that it wouldn't be a good idea to take just one, or even three, of these metrics and to use them solely to determine the strength of your team.  That would be a mistake and almost certainly give you a poor estimation, either to the upside or the downside, of your team's performance.
 
-On the other hand, to attempt to track all these metrics suggested below, is itself probably unwise too.  It's probable that you already use a few of these metrics. But if you read the below and find some metrics that would be beneficial to your workplace, choose 2 or 3, and go from there.  The below is not a prescription, so please don't treat it as such.  Treating this as a prespription will likely cause more issues that you're currently experiencing :)  
+On the other hand, to attempt to track all these metrics suggested below, is itself probably unwise too.  It's probable that you already use, at least, a few of these metrics. But if you read the below and find some metrics that would be beneficial to your workplace, choose 2 or 3, and go from there.  The below is not a prescription, so please don't treat it as such.  Treating this as a prespription will likely cause more issues that you're currently experiencing :).  
 
 In addition, it's worth noting the importance of educating stakeholders on the appropriate use of these metrics. This educational effort should target the functions, departments, or groups that actively consume these metrics.  Information radiators as metrics is the concept to pursue.  This is in stark contrast to utilising them as punitive tools to admonish teams with.
 
 Some useful Team metrics include:
 
-## Ready?  The beginning of the funnel
+## Ready Work: The beginning of the funnel
 
 **Amount of Ready work**: 
 
@@ -72,6 +77,10 @@ Okay, this isn't a metric per se, but this is a measure of confidence that could
 ### Project burndown - daily chart
 Large projects with firm deadlines are still a thing and often for good reason.  Similar to a scrum sprint burndown, or a release burndown, I like and prefer, a burndown for the entire project.  This indicates (indicate is the operative word) the amount of work remaining to be completed at a given date.  And this tally of amount of work remaining is tallied at a regular interval; every week, or every day for example.
 
+<center>
+<img src="./General images/ProjectBurndown.drawio.png" />
+</center>
+
 Tracked over time, this can be helpful for numerious reasons, but the major one is to indicate the likelihood of meeting the delivery date. 
 Burndowns are useful because they can raise confidence, or otherwise, of realistic delivery dates.  Of scope uncertainty.  Of productivity also.
 
@@ -84,14 +93,9 @@ Other useful metrics that are useful to include in burndowns are:
 - amount of work completed
 - re-estimated work
 
-The below diagram illustrates these metrics.  Scope change can be gleaned by considering the following: if there is no scope change in a project, there should be an equal drop in the amount of remaining work as there is an increase in the amount of closed work.  However, if you see that the amount of closed work is trending well, but the amount of remaining work to do is flat-lining or similar, this is very likely due to scope changes, unforseen work, re-estimations to the upside.  This is the case shown in the diagram where the "Closed" trajectory is not mirrored by the "Open" trajectory.
+The above diagram illustrates these metrics.  Scope change can be gleaned by considering the following: if there is no scope change in a project, there should be an equal drop in the amount of remaining work as there is an increase in the amount of closed work.  However, if you see that the amount of closed work is trending well, but the amount of remaining work to do is flat-lining or similar, this is very likely due to scope changes, unforseen work, re-estimations to the upside.  This is the case shown in the diagram where the "Closed" trajectory is not mirrored by the "Open" trajectory.
 
 _Metric: How much work is remaining to complete in your current projects?_
-
-
-<center>
-<img src="./General images/ProjectBurndown.drawio.png" />
-</center>
 
 
 ### Quantity 
@@ -121,7 +125,7 @@ _Measure: How consistently sized are the work items in a typical iteration?_
 <img width="200" src="./General images/SizeVariationWorkItemsPerPeriod.drawio.png" />
 </center>
 
-I'm personally in favor of small work items with little variation in size, when possible.  This allows for more predictability, ability to get the work 'Ready',  a higher 'completion rate' and feeling of productivity, better quality, and of course, better _consistency_.  There are downsides, but these can be mitigated by well-intending, eager teams.
+I'm in favor of small work items with little variation in size, when possible.  This allows for more predictability, ability to get the work 'Ready',  a higher 'completion rate' and feeling of productivity, better quality, and of course, better _consistency_.  There are downsides, but these can be mitigated by well-intending, eager teams.
 
 ### DevOps
 Remember that the following metrics are intended to be indicators of high performing teams, and not necessarily of a good, healthy DevOps process; although the two conceptual domains overlap significantly.
@@ -131,7 +135,7 @@ Remember that the following metrics are intended to be indicators of high perfor
 
 **Automated tests** failing unit, integration and UI tests are an important indicator and metric, and should always be treated seriously and fixed, disabled, or deleted,(reserve deletion for redundant tests)  as soon as possible.
 
-_Metric: are there tests failing today, and if so,which ones?  How many?_
+_Metric: are there tests failing today, and if so,which ones?  How many?_<br/>
 _Metric: How many days have these tests been failing for?_
      
 **Environmental efficiency - Time to production**.
@@ -292,13 +296,13 @@ Generally speaking, avoiding 2s is beneficial.
 
 
 
- **Leadership and Positive resistance**: How many leaders exist in a team and how do they display themselves as leaders?  Does each team leader inspire confidence in you such that; you can have a difficult conversation with them?  Do they accurately and transparently reflect the remaining work and do they have a strong commitment to get the job done well?  Do they forsee issues with accuracy and talk about these?  Do leaders push back positively to you?  Do they push back in a way that helps you adjust your course of action? 
+ **Leadership and Positive resistance**: How many leaders exist in a team and how do they manifest themselves as leaders?  Does each team leader inspire confidence in you such that; you can have a difficult conversation with them?  Do they accurately and transparently reflect the remaining work and do they have a strong commitment to get the job done well?  Do they forsee issues with accuracy and talk about these?  Do leaders push back positively to you?  Do they push back in a way that helps you adjust your course of action? 
 
 If you look at your entire software development department, or even within a team, do you see many leaders, not just team leads, but leaders in different areas; cultural, quality, architecture, domain expertise, product experts, problem solving leaders, etc; people who are listened to and respected, people whose sphere of influence spans across teams and departments?  How many of these people exist in your team, or team of teams?  If your answer is very few, then this is something to work on:
 - your culture may be problematic; and not resulting in the kind of environment that encourages  people to grow or share these talents. 
 - there is a lack of experience and confidence in your team
 
-_Metric: List your leaders and what function they fulfill.  Identify the gaps that you have._
+_Metric: List your leaders and what function they fulfill.  What is the ratio of leaders to total number of people in your team?_
 
 What constitutes a good number of leaders? I don't have a great answer without getting into some detail with regard culture, but consider the following:
 1) each development team needs at least one strong leader, 
@@ -307,18 +311,19 @@ What constitutes a good number of leaders? I don't have a great answer without g
 
 So, as a rule of thumb, having a good team lead, and a good backup leader in that team, and also if you have good leaders across your major disciples eg., Engineering, Domain expertise, Architecture, UX, Product, you should be in a reasonable position.
 
-**Greater than the sum of its parts and masking of weaknesses**: An important indicator that I see emerge out of good teams is how often team members cover for each others' weaknesses, such that the team rarely exposes these weaknesses.  This is a good sign of a great team culture.  It is difficult to measure, I'm sorry, but can be identified during standups and interaction between members offerring to help one another on specific tasks, sometimes stepping outside their own roles to offer advice or help.
+And lastly:
+_Do you have a person that could replace you in your role?_
 
-A tentative metric is a count of the number of times that you witness generously helpful actions from team members.  I've not done this myself to be honest, but
+**Greater than the sum of its parts and masking of weaknesses**: An important indicator that I see emerge out of good teams is how often team members cover for each others' weaknesses, such that the team rarely exposes these weaknesses.  This is a good sign of a great team culture.  It is difficult to measure, I'm sorry, but can be identified during standups and interaction between members offerring to help one another on specific tasks, sometimes stepping outside their own roles to offer advice or help.
 
 It's great to see when a team member suggests to another, in a selfless fashion, that they'll work with that person to peer program this next diffcult part.
 
 Imagine the opposite situation whereby nobody in the team is covering, whether purposefully or not, for anyone else.  Teams end up working as individuals, rather than collectively.  Each weakness is exposed.
 
+You can simply take note of when these actions occur.  Purposely tallying and publicising this kind of information seems to gamify it to the point of meaninglessness, unfortunately, and I would stay away from that temptation.
 
-<br/>
-<br/>
-<br/>
+
+# Conclusion
 
 I've not used metrics to understand how much the team cares about the customer, about the pride they take in their work and the products that they work on.  This would be an interesting exercise.
 
