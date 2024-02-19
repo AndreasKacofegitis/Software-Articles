@@ -240,6 +240,8 @@ An illustrative anecdote involves a situation where the company was about to inv
 
 Typically there are two paths in challenging scenarios.  One of the paths is logically sound.  Even if you may not agree with it, you understand with the reasoning.  The other path involves actions that seem incongruent with stated goals, indicating a potential hidden agenda.  While it's crucial to challenge decisions and seek clarity, persistent deviation from stated goals might indicate covert operations.
 
+> "If you cannot understand why somone did something, look at the consequences - and infer the motivations" ~ Carl Jung
+
 Remember that words can sometimes be cheap. It is always useful to take measure of the actions that have played out instead and determine if there is an assymmetry between the actions over time and the rhetoric.  If there is a marked difference, then consider that you may very well not be holding all the cards. 
 
 When you lack access to crucial information, consider stating and documenting your case, remaining respectful and honorable. If the project's success isn't critical to survival, it might be prudent to acknowledge the limited sphere of influence, focus on battles where you can exert more impact, and gracefully move forward.
