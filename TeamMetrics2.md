@@ -33,6 +33,8 @@ On the other hand, to attempt to track all these metrics suggested below, is its
 
 In addition, it's worth noting the importance of educating stakeholders on the appropriate use of these metrics. This educational effort should target the functions, departments, or groups that actively consume these metrics.  Information radiators as metrics is the concept to pursue.  This is in stark contrast to utilising them as punitive tools to admonish teams with.
 
+And lastly; many of these metrics aren't necessarily publishable on a dashboard as are, say, Key Services metrics.  The Communication metrics, for example, aren't well suited to publication.  The Project burndown, however, is something that should be posted to the team and wider.  Consider your approach carefully through the lens of incentivasation - beware what you incentivise as you may just get what you're asking for.
+
 Some useful Team metrics include:
 
 ## Ready Work: The beginning of the funnel
@@ -116,6 +118,7 @@ To be predictable you don't necessarily need consistency of quantity of features
 Are you delivering a consistent number of features each release cycle?  There may be many different reasons for not doing so, such as inconsistent feature sizing, such as an insufficient pipeline of work that is not ready for implementation, such as team capability and capacity, but if you can tally the number of delivered features as per above, and do so over a period of time, you have a nice illuminating metric.
 
 _Metric: Quantity over time._
+<br/>
 _Measure: Categorise and tally work items that a team works on broken into small, medium, or large chunks._ 
 
 
@@ -125,7 +128,7 @@ _Measure: How consistently sized are the work items in a typical iteration?_
 <img width="200" src="./General images/SizeVariationWorkItemsPerPeriod.drawio.png" />
 </center>
 
-I'm in favor of small work items with little variation in size, when possible.  This allows for more predictability, ability to get the work 'Ready',  a higher 'completion rate' and feeling of productivity, better quality, and of course, better _consistency_.  There are downsides, but these can be mitigated by well-intending, eager teams.
+I'm in favor of small work items with little variation in size, when possible.  This allows for more predictability, ability to get the work 'Ready',  a higher 'completion rate' and feeling of productivity, better quality through better testability, and of course, better _consistency_.  It also probably means that the team has enough understanding to create a small enough work item.  There are downsides, such as managing of work items is more cumbersome, difficult to see the forest for the trees, and a sense of 'false-decomposition', but these can be mitigated by well-intending, eager teams, tools such as storymapping, and a keen constant eye on the backlog.
 
 ### DevOps
 Remember that the following metrics are intended to be indicators of high performing teams, and not necessarily of a good, healthy DevOps process; although the two conceptual domains overlap significantly.
@@ -152,26 +155,29 @@ _Metric: Release punctuality = Release date - Intended release date_
 
 Your ideal target Release Punctuality days is zero.
 
-Your Intended release date should follow a reasonable pattern of course.  If this is not the case, then you should fix this first as it is probably a significant contributor to missed release dates.
+If your release puntuality is a significant issue, and your Intended release date does not follow a regular cadence, one month per release for example, then your first step should be to agree on and target a reasonable cadence of release, if possible.  Irregular release cadence can be a significant contributor to missed release dates.
 
-A reluctance to target more ambitious release dates, say, even monthly (although some may find this delay amusing, many organisations regard this as reasonble).  Common justifications include 'insuffient time to build a set of features', or 'lengthy regression cycles'.  Interestingly, some teams resist due to the belief that more time is needed to ensure a quality release. Fortunately, there exists a robust positive correlation between a swift release cadence and release quality. Frequent releases facilitate constant testing and reduce code churn per release, leading to improved overall quality.
+A target for more ambitious release dates, say, even monthly (although some may find this delay amusing, many organisations regard this as reasonble) is justified  commonly by 'insuffient time to build a set of features', or 'lengthy regression cycles'.  Interestingly, some teams resist due to the belief that more time is needed to ensure a quality release. Fortunately, there exists a robust positive correlation between a swift release cadence and release quality. Frequent releases facilitate constant testing and reduce code churn per release, leading to improved overall quality.
 
 
 **Regression test cycle time**
-It is still common to see regression test cycles of many days to over one week.  It is unlikely that you have a high performing team if the regression test cycle takes a long period of time.  There are a few reasons for this, one of which is that while the regression is taking place, the developers are likely committing un-tested code and features.  Any bugs found and fixed during the regression cycle is unlikely to be tested properly.  Moreover, a prolonged regression test cycle means that automation tests are not broad enough, robust enough, or trusted.  And just one last point (there are more!), the potential for human error during regression testing is large.  OK... one more... it is almost certain that you don't have performance tests.  A manual regression test cycle for one person for less that 1/2 day for a large product is the maximum that you should aim for.
+It's not uncommon to observe regression test cycles lasting for several days, extending to over a week or more. This prolonged duration is often a compounded result of low *Environmental Efficiency* (as explained earlier).
 
-_Metric: How long does a regression test cycle take for your product(s)?_
+A protracted regression test cycle is not indicative of a high performing team. Several factors contribute to this, including the likelihood that developers are committing untested code and features while regression testing is ongoing. Also, bugs identified and fixed during the regression cycle may not undergo thorough testing. Additionally, an extended regression test cycle points to inadequacies in the breadth, robustness, or trustworthiness of automated tests, and likely a complete lack of performance tests. Notably, the risk of human error during regression testing increases with the duration of the cycle. For a large product, the maximum target for a manual regression test cycle per person should be less than half a day.
+
+_Metric: What is the duration of the regression test cycle for your product(s)?_
 
 
 ### Process and Bottlenecks
-  Work items stuck and piled up in the testing column is a good metric to monitor.  And that goes for workitems piling up in any column. The (all but contrived) illustration below shows a bottleneck in the Sign-off column, for example. Questions to ask could be:
 
-   - Throughput: How many days from starting to Done do items stay in each process column? 
-   - How many items vs team members are in Progress at any point in time?
-   - How often does this pattern occur?  Is this a one-off, or does this occur every iteration?
+Work items stuck and piled up in the testing column is a good metric to monitor.  And that goes for workitems piling up in any column. The (all but contrived) illustration below illustrates a bottleneck in the Sign-off column, for example. Questions to ask could be:
+
+  - Throughput: How many days from starting to Done do items stay in each process column? 
+  - How many items vs team members are in Progress at any point in time?
+  - How often does this pattern occur?  Is this a one-off, or does this occur every iteration?
 
 
-There are good ways to remedy this, but we'll leave that out of the scope of this article.
+There are good ways to remedy this, but we'll leave that out of the scope of this article, but as a quick pointer, [a read of basic Kanban principles](https://www.qwant.com/?q=kanban+wip) will take you a long way.
 
 <center>
 <img src="./General images/scrum.png" width="350" />
@@ -183,7 +189,7 @@ How solid are the features that you have delivered?
 
 **Bug count**: How many bugs have been identified since your push to production? (Continuous Delivery shops may want a tally of all recorded bugs instead here, or bugs recorded per week, or per month for example). How many bugs are picked up during the testing phase?
 
-**Bug type**: What is the nature of these bugs?  How crictical are they? A count of critical bugs above zero is cause for action. 
+**Bug severity**: What is the nature of these bugs?  How crictical are they? A count of critical bugs above zero is cause for action. 
 
 
 **Speed of response**.  If an urgent bug is broadcast and it is immediately jumped on, you know you on to a good thing.  If the bug languashes and it needs to be followed up multiple times, a team meeting needs to be set up regarding its priority, hmmmm... well, you know... _Time to first response i.e., from initial broadcast of an important bug is a good measure._
@@ -289,6 +295,35 @@ Zero questions means that either everyone knew everything already, or they were 
     
 Generally speaking, avoiding 2s is beneficial.
 
+| Time       | Event                           | Team's Reaction |
+|------------|---------------------------------|-----------------|
+| 2024-01-01 | Successful Product Launch       | 1               |
+| 2024-02-15 | Critical Bug Found              | -2              |
+| 2024-03-10 | Positive Customer Feedback      | 1               |
+| 2024-04-05 | Key Team Member Resignation     | -2              |
+| 2024-05-20 | Project Milestone Achieved      | 1               |
+| 2024-06-01 | Team Meeting                    | 0               |
+
+
+```mermaid
+xychart-beta
+    title "Sales Revenue"
+    x-axis [Successful Product Launch, Critical Bug Found, Positive Customer Feedback, Key Team Member Resignation, Project Milestone Achieved, Team Meeting]
+    y-axis "Temperament" -2  --> 2
+    bar [1, -2, 1, -2, 1, 0]
+```
+config:
+    xyChart:
+        width: 900
+        height: 600
+    themeVariables:
+        xyChart:
+            titleColor: "#ff0000"
+
+
+
+
+
  **Attrition of people**: how often do people leave your team/organisation and what are their reasons for leaving the team.  Is there a team that people don't typically want to work in and why is that?  A timeline of people leaving, the team that they have left, and the main reason for leaving can be quite revealing, especially within a large department, and drawn over a lengthy period of time.
 
 
@@ -325,12 +360,10 @@ You can simply take note of when these actions occur.  Purposely tallying and pu
 
 # Conclusion
 
-I've not used metrics to understand how much the team cares about the customer, about the pride they take in their work and the products that they work on.  This would be an interesting exercise.
+I've not used metrics to understand how much the team cares about the customer, about the pride they take in their work and the products that they work on.  This would be an interesting exercise, but I can imagine that it would be something like a function of some of the metrics discussed in this article.
 
-And that's a wrap.  I leave you with this quote below, again by Mark Twain.  Keep this quote in mind.  Your preparation and use of metrics can easily turn into a misuse of these very metrics.  With firmness of conviction, persistence, and an educational stance of interpreting the metrics, you can avoid this misuse. In the past, this has constituted more work than I care to admit.
+>    "Facts are stubborn, but statistics are more pliable."  ~ Mark Twain
 
->    "Facts are stubborn, but statistics are more pliable."  
+Keep this quote in mind.  Your preparation and use of metrics can easily turn into a misuse of these very metrics.  With firmness of conviction, persistence, and an educational stance of interpreting the metrics, you can avoid this misuse. In the past, ascertaining and evaluating these metrics has constituted more work than I care to admit.
 
-
-
-This article was cut short and only included what I felt are some of the more important points, because "I'm sorry I didn't write less but I ran out of time" keeps ringing in my head (and even then I know its too long).  I'm curious as to what metrics you have used in the past; please elaborate on your own thoughts either directly (andreas.kacofegitis@gmail.com) or post below.  The art here is not to know what to do, but when and how you do it; your actions.  Instrumenting change is a fun and exciting challenge, but it's probably best to change a little at a time.  Good luck.
+I apologise for the length of this article.  "I'm sorry I didn't write less but I ran out of time".  I'm curious as to what metrics you have used in the past; please elaborate on your own thoughts either directly (andreas.kacofegitis@gmail.com) or post below.  The art here is not to know what to do, but also when and how you do it.  Instrumenting change is a fun and exciting challenge, but it's probably best to change a little at a time.  Good luck.
