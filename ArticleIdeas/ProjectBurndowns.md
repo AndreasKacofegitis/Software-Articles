@@ -81,7 +81,7 @@ Aside from remaining work, other useful metrics that are useful to include in bu
 - Number of work items completed
 - Number of work items remaining
 
-The above diagram illustrates these metrics.  Scope change can be gleaned by considering the following: if there is no scope change in a project, there should be an equal drop in the amount of remaining work as there is an increase in the amount of closed work.  However, if you see that the amount of closed work is trending well, but the amount of remaining work to do is flat-lining or similar, this is very likely due to scope changes, unforseen work, re-estimations to the upside.  This is the case shown in the diagram where the "Closed" trajectory is not mirrored by the "Open" trajectory.
+The [above diagram illustrates these metrics](#what-is-a-project-burndown).  Scope change can be gleaned by considering the following: if there is no scope change in a project, there should be an equal drop in the amount of remaining work as there is an increase in the amount of closed work.  However, if you see that the amount of closed work is trending well, but the amount of remaining work to do is flat-lining or similar, this is very likely due to scope changes, unforseen work, re-estimations to the upside.  This is the case shown in the diagram where the "Closed" trajectory is not mirrored by the "Open" trajectory.
 
 
 ## Promote good behaviour
@@ -112,32 +112,36 @@ These are the apparent good behaviours that I often see.
         - **Ascertaining true scope:** Understanding the actual work required.
         - **Reducing scope:** Identifying non-essential features.
         - **Renegotiating timeframes:** Adjusting deadlines based on progress.
-        - **Resource allocation negotiation:** Ensuring optimal resource utilization.
-2. **Lean Implementations:**
+        - **Resource allocation negotiation:** Ensuring optimal resource utilisation.
+2. **Lean Implementations and Process:**
     - Burndown charts promote a focus on minimal, lean solutions, in order to complete an implemention within the timeframe.
     - Teams prioritise essential features over nice-to-haves.
-    - Streamlining processes becomes a priority, leading to efficiency gains: testing, development, UX, Product processes.
+    - Streamlining processes becomes a priority, leading to efficiency gains: testing, architectural, development, UX, product processes.
 
-3. **Reliable Environments:**
-    - The pressure of deadlines drives teams to create robust testing, development, and production environments that are quick and reliable to:
+3. **Reliable Deployment Environments:**
+    - The pressure of deadlines drives teams to create robust testing, development, and production environments that are quick and reliable:
         - **build:** build times and a focus to reduce them, 
-        - **reset:** [TODO fix this] data and services in known states are important to ensure that testing is accurate and any software regressions are highlighted, 
-        - **deploy to:** regular releases and fixes are hampered when deployments require an inoordinate time.
+        - **known state:** data and services in known states are important to ensure that testing is accurate and any software regressions are highlighted, 
+        - **deployment time:** regular releases and fixes are hampered when deployments require an inoordinate time.
+        - **deployment methods, CI:** reliable deployment practices are employed to substitute latent, unrepeatable, risk-burdened deployments. 
+
+
 
 3. **Improved Team Culture:**
     - Team members support each other during challenging phases.
-    - Shared problem-solving strengthens team bonds; forged in the heat of fire, as it were.
+    - Collaborative Problem-Solving:
+        - The intensity of problem-solving and shared problem-solving strengthens team bonds.
+        - When the burndown indicates challenges, teams rally together; leaders emerge.
+        - Collaborative problem-solving leads to creative solutions.
+        - Team members learn from each other’s expertise.
     - Burndown charts make progress visible to the entire team.
     - Team members become accountable for their contributions.
     - Transparency encourages open communication and trust.
-    - Collaborative Problem-Solving:
-    When the burndown indicates challenges, teams rally together.
-    Collaborative problem-solving leads to creative solutions.
-    Team members learn from each other’s expertise.
-
+    
 7. **Adaptive Decision-Making:**
-As the burndown line fluctuates, teams adapt their strategies.
-Decisions are based on real-time data rather than assumptions.
+    - As the burndown line fluctuates, teams adapt their strategies.
+    - Decisions are based on real-time data rather than assumptions.
+    - A certain ruthless of decision-making and practice emerges when it is clear that the chance of success is not possible under the current strategy.
 
 4. **Inquisitive Stakeholders and Executives:**
     - As the burndown line shows signs of risk, stakeholders and executives become more inquisitive.
@@ -150,11 +154,11 @@ Decisions are based on real-time data rather than assumptions.
     - Teams stay focused on existing tasks, avoiding distractions.
     - Conversations shift toward considering the impact of new features on the project timeline.
     - Focus on Value Delivery:
-    Teams prioritise tasks based on value to the end user.
-    The chart highlights essential work, minimizing distractions.
-    Delivering valuable features becomes the primary goal.
+        - Teams prioritise tasks based on value to the end user.
+        - The chart highlights essential work, minimizing distractions.
+        - Delivering valuable features becomes the primary goal.
 
-1. **Risk Mitigation:**
+3. **Risk Mitigation:**
 Early deviations from the ideal line signal potential risks.
 Teams can address issues promptly.
 Risks are identified before they escalate.
@@ -165,6 +169,8 @@ Burndown charts make progress visible to the entire team.
 Team members become accountable for their contributions.
 Transparency encourages open communication and trust. -->
 
+Many of the points above leads one to ask: "Shouldn't this already be happening?  This is obviously the correct practice."  Well, it's often not the case that our expectations aren't properly set; what we thing we need and what we actually need are two different things.  There's nothing quite like the stark contrast of reality to bring this to our attention.
+
 
 Remember, the burndown chart isn’t just about ticking off tasks—it’s a dynamic tool that guides teams toward delivering the right product backlog items at the right time. 🚀 .
 
@@ -174,19 +180,59 @@ Remember, the burndown chart isn’t just about ticking off tasks—it’s a dyn
 
 ## Patterns to expect
 
-- Roller coaster
-sharp incline and then a steadying, a drop, and then another incline.  A plateau and then a drop
+Patterns to expect resemble a roller coaster.  The below burndown is illustrative of many and a description of each step is as follows:
+
+
 <center>
 <img  src="../General images/burndownTest.drawio.png" />
 </center>
 
+1. On project kick off, there can be a fervour to determine scope and requirements.  One can experience a large scope increase in this phase.
+2. There is typically a level off in the first couple of weeks as the scope settles and CI/CD piplelines are built, security and architectures are visited and delivered.
+3. A drop in amount of work as the architectural and CI initial work is completed.  And the team begins to gain momentum in completing work.
+4. An rise in the amount of work as it is realised that the requirements are deeper or broader than initially envisaged.
+5. A typical consistent increase in the Closed amount of work.
+6. The plateau period were 'productivity is flat-lining'.  Actually this is not the case as you can see where work is still being closed:
+7. The closed amount of work is offset by the recently added amount of work.  This scope change may be increased due to re-estimation to the up-side of existing work.
+8. A steadying, a drop, and then another incline.  Typically due to forgotten requirements or due to unforseen technical complexities; APIs don't work as expected, datasets aren't what were originally was envisaged: base assumptions have been broken.
+9. A steady drop.  Most unknown work is now known. This means that there is little to no scope change.  And difficult technical challenges have largely been resolved.
+
+
 ## Consider story maps
+Synchronising your work with a story map tool such as storiesonboard.com can be a very helpful way to track progress.  They provide a two dimensonal view of what is a typical one-dimensional backlog that is difficult to interpret.  Zooming out on a storymap can help to shed light on the overall progress of the project.
+
+<center>
+<img src="../General images/storymapView.png" width="500"/>
+</center>
+
+## Limitations
+Project burndowns are not a panacea and not a weapon to beat people over the head with.
+
+They can lead to :
+- Shortcuts, sacrificing quality for speed.  An example is where  thorough unit testing for a critical module is skipped in favour of getting the job done quickly.  Another example is when technical shortcuts  where functionally the work is complete, however, architecural rules have been broken; in the interest of expediency,perhaps not accessing data from prescribed services and connecting straight to a database for example.
+
+    At times, taking shortcuts can be an appropriate compromise, but will need time for remedy after delivery.  Left unnattended, they can quickly become an embedded anti-pattern.  Often this time is not given to a development team as they move on to the next burning fire.
+
+    One remedy for this scenario is to ensure that a 'tech-debt' workitem is raised for the repair work that must ensue after delivery.
+
+- Uncomfortable conversations; burndowns are quite revealing and fronting up to have a conversation about why there is little apparent progress, work hasn't been defined yet, work has been re-estimated to a greater value, is difficult and confronting.  One may feel that they are dissappointing stakeholders, or that they are losing their reputation.  But I must re-iterate that this step shouldn't be avoided.  And stakeholders should be involved to proactively in adjusting scope or expectations when necessary.
+
+    To help with the uncomfortable conversation, in my experience, it is almost always the case that your honesty is appreciated.  Also make sure to do your best to explain the burndown and research why it has arrived in its current state.  This expresses the importance of having project reviews where all stakeholders are involved.
+
+- High pressure on the project teams.  Teams can feel unduely and stressed to deliver. 
+
+- Individuals held to account.  It can be uncomfortable for those involved in the team as it becomes more obvious that there is a bottleneck and that there the person or persons required to remove the bottleneck are obvious.  This needs to be managed appropriately to avoid fingerpointing and playing the ill-fated blame-game.  A developer for example, not being perceived as being productive, can be remedied by others supporting this person, sharing the problem, and working together as a team.
+
+
 
 ## Sprint and release burndowns
-I've not found sprint burndowns particularly helpful to track progress.  Not that I haven't used them, but if you want to know how a sprint is tracking, simply stand back from the whiteboard, or zoom out the online sprint board and you'll soon get your answer.
-
-Stand back and behold.
+I've not found sprint burndowns particularly helpful to track progress.  Not that I haven't used them, but if you want to know how a sprint is tracking, simply stand back from the whiteboard, or zoom out the online sprint board and you'll soon have your answer.
 
 ## When not to use Project Burndowns
-For small pieces of work, they seem to lose their value.
-[TODO: finish this]
+For small pieces of work, they seem to lose their value.  Around three months and over they can be valuable.
+
+## Conclusion
+Project burndowns, while not a magic bullet, can be a powerful tool for guiding teams towards successful project completion. By providing transparency and encouraging positive behaviors, they can help navigate the often-challenging terrain of large-scale, deadline-driven projects. This article provided a solid foundation for understanding burndowns and their potential benefits. For those ready to embrace the transparency and focus they offer, incorporating project burndowns into their project management toolkit can be a wise decision.
+
+Remember, successful implementation depends on tailoring the approach to your specific project and audience. Experiment, adapt, and use burndowns as a conversation starter, not just a reporting tool. With an open mind and the right approach, project burndowns can help you deliver value on time and on budget, even when the journey seems like a rollercoaster.
+
