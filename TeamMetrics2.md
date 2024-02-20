@@ -1,7 +1,13 @@
+<link rel="stylesheet" type="text/css" href="./custom.css">
 
 # Practical Software Metrics for Teams
 
+<center>
+<img height="40px" width="100%" src="./General images/metricsLogo2.png">
+</center>
+
 The most effective, productive, and engaged teams that I've worked with have used many of the metrics in this article.  While it wasn't appreciated at the time, we did use metrics to drive our behaviours to improve our practice, our processes, and our behaviours. Conversely, the one organisation that resisted the building of systems to promote these metrics, interestingly, was the lowest performing organisation I've witnessed.  Is there a strong correlation between the use of metrics and team performance?  I think so.  Regardless, employing some of the following metrics in your organisation will, at least, not hurt.
+
 
 Many of the below metrics require the actual data to back them.  It isn't the objective of this article to demonstate how to achieve this, and I generally assume that you have the data at hand.  If you don't, and there were many times that I didn't, the path to discovering the information was very fruitful and enlightening.  Often hard work, and sometimes requiring specific development time and effort.  And a great deal of persistence. But always worthwhile.
 
@@ -9,7 +15,54 @@ My desire is that this article makes you think, and hopefully, that you act.  Wh
 
 Please keep in mind that I've only lightly tread on each of the following points; most of  these are topics that are broad and deep, and often don't have only one single interpretation.  Ideally they would be elaborated upon further, but I'm very mindful of the saying "I'm sorry I didn't write less, but I ran out of time" (a contortion of Mark Twain's quote).  Regardless, this article is long enough. I'll look at a deeper dive into a selection of topics some time in the future and as feedback, or my whim, guides me.
 
-## Metrics
+
+
+- [Practical Software Metrics for Teams](#practical-software-metrics-for-teams)
+  - [Metrics Categories](#metrics-categories)
+  - [What is a metric?](#what-is-a-metric)
+  - [Metrics for team performance](#metrics-for-team-performance)
+    - [How to use these metrics](#how-to-use-these-metrics)
+  - [Ready Work: The beginning of the funnel](#ready-work-the-beginning-of-the-funnel)
+  - [Delivery metrics](#delivery-metrics)
+    - [Predicatablity](#predicatablity)
+    - [Project burndown - daily chart](#project-burndown---daily-chart)
+    - [Quantity](#quantity)
+    - [Consistency of Quantity](#consistency-of-quantity)
+    - [Size variation](#size-variation)
+    - [DevOps](#devops)
+      - [Commit activity](#commit-activity)
+      - [Automated tests](#automated-tests)
+      - [Environmental efficiency - Time to production](#environmental-efficiency---time-to-production)
+      - [Release cadence and Release punctuality](#release-cadence-and-release-punctuality)
+      - [Regression test cycle time](#regression-test-cycle-time)
+    - [Process and Bottlenecks](#process-and-bottlenecks)
+    - [Quality, Reliability, and Confidence](#quality-reliability-and-confidence)
+      - [Bug count](#bug-count)
+      - [Bug severity](#bug-severity)
+      - [Speed of response](#speed-of-response)
+      - [Rollbacks and fixes](#rollbacks-and-fixes)
+      - [Support tickets How many support tickets have been raised against a specific feature/release?](#support-tickets-how-many-support-tickets-have-been-raised-against-a-specific-featurerelease)
+      - [Helpdesk sentiment](#helpdesk-sentiment)
+      - [Helpdesk staff scheduling](#helpdesk-staff-scheduling)
+      - [Release confidence and staff scheduling](#release-confidence-and-staff-scheduling)
+  - [Communication](#communication)
+    - [General comms metrics](#general-comms-metrics)
+      - [Whiteboard design](#whiteboard-design)
+      - [Distraction balance](#distraction-balance)
+      - [Peer programming](#peer-programming)
+    - [Meetings](#meetings)
+      - [Length, frequency and purpose](#length-frequency-and-purpose)
+      - [Meeting Positivity](#meeting-positivity)
+  - [Softer team metrics](#softer-team-metrics)
+      - [Team temperament (the imposter of triumph and disaster)](#team-temperament-the-imposter-of-triumph-and-disaster)
+      - [Attrition of people](#attrition-of-people)
+      - [Team Flex, Eagerness and Embracing change](#team-flex-eagerness-and-embracing-change)
+      - [Leadership and Positive resistance](#leadership-and-positive-resistance)
+      - [Greater than the sum of its parts and masking of weaknesses](#greater-than-the-sum-of-its-parts-and-masking-of-weaknesses)
+- [Conclusion](#conclusion)
+
+
+## Metrics Categories
 Metrics for software development, fall into the following overlapping categories:
 
 1. To measure team performance (the topic of this article)
@@ -17,10 +70,10 @@ Metrics for software development, fall into the following overlapping categories
 3. To ensure software, infrastructure, and key services are running smoothly
 
 
+
 ## What is a metric?
 
 The word metric has its origins in the Greek language; derived from the word "metron" (μέτρον), used in a variety of contexts, but broadly meaning to 'measure', to 'count'.  For the purposes of this article, we'll use the term to mean something that can be measured, and also have a number attributed to it as a result of the measurement.
-
 
 
 ## Metrics for team performance
@@ -56,7 +109,7 @@ If you have no items in your current iteration that are deemed ready, your immed
 How ready are your teams?  Count the total items in the current iteration and determine which of these items are Ready.  All items in the current iteration should be ready (although for teams that prefer, they could refine thier work on a weekly basis in order to keep the information more current and pertinent).  A further 2 weeks should be nearly ready and planned, and a further month or two should be scheduled, but not completely ready. 
 
 <center>
-<img src="./General images/RequirementsScopeOfUncertainty.png" width="" />
+<img src="./General images/RequirementsScopeOfUncertainty.png" width="60%" />
 
 <em>The closer to being worked on, the more ready your work should be.  Agile is about making progress with imperfect information.  As the work gets closer, the less imperfect we expect the information.</em>
 </center>
@@ -103,7 +156,7 @@ _Metric: How much work is remaining to complete in your current projects?_
 ### Quantity 
 
 <center>
-<img width="200" src="./General images/QuantityWorkItemsPerPeriod.drawio.png" />
+<img width="60%" src="./General images/QuantityWorkItemsPerPeriod.drawio.png" />
 </center>
 
 What is the count of features per period that you are delivering?  If you have varying sizes of feature implementations, you can always tally per category e.g., 1 large feature, 2 medium, and 5 small features, plus 8 bug fixes.  Consider tracking this as an accumulating metric against your project burndown(s).
@@ -112,7 +165,7 @@ What is the count of features per period that you are delivering?  If you have v
 To be predictable you don't necessarily need consistency of quantity of features, you need moreso reliability.  But consistency helps a lot.
 
 <center>
-<img width="200" src="./General images/QuantityConsistencyWorkItemsPerPeriod.drawio.png" />
+<img width="60%" src="./General images/QuantityConsistencyWorkItemsPerPeriod.drawio.png" />
 </center>
 
 Are you delivering a consistent number of features each release cycle?  There may be many different reasons for not doing so, such as inconsistent feature sizing, such as an insufficient pipeline of work that is not ready for implementation, such as team capability and capacity, but if you can tally the number of delivered features as per above, and do so over a period of time, you have a nice illuminating metric.
@@ -125,7 +178,7 @@ _Measure: Categorise and tally work items that a team works on broken into small
 ### Size variation
 _Measure: How consistently sized are the work items in a typical iteration?_ 
 <center>
-<img width="200" src="./General images/SizeVariationWorkItemsPerPeriod.drawio.png" />
+<img width="60%" src="./General images/SizeVariationWorkItemsPerPeriod.drawio.png" />
 </center>
 
 I'm in favor of small work items with little variation in size, when possible.  This allows for more predictability, ability to get the work 'Ready',  a higher 'completion rate' and feeling of productivity, better quality through better testability, and of course, better _consistency_.  It also probably means that the team has enough understanding to create a small enough work item.  There are downsides, such as managing of work items is more cumbersome, difficult to see the forest for the trees, and a sense of 'false-decomposition', but these can be mitigated by well-intending, eager teams, tools such as storymapping, and a keen constant eye on the backlog.
@@ -133,22 +186,24 @@ I'm in favor of small work items with little variation in size, when possible.  
 ### DevOps
 Remember that the following metrics are intended to be indicators of high performing teams, and not necessarily of a good, healthy DevOps process; although the two conceptual domains overlap significantly.
 
-**Commit activity** over a period is a short cut indicator towards developer productivity.  Short sharp, small, and constant commits are indicative of a pragmatic, process oriented team.  Several meaningful check-ins per day is good.
+#### Commit activity
+Over a period is a short cut indicator towards developer productivity.  Short sharp, small, and constant commits are indicative of a pragmatic, process oriented team.  Several meaningful check-ins per day is good.
 
 
-**Automated tests** failing unit, integration and UI tests are an important indicator and metric, and should always be treated seriously and fixed, disabled, or deleted,(reserve deletion for redundant tests)  as soon as possible.
+#### Automated tests
+Failing unit, integration and UI tests are an important indicator and metric, and should always be treated seriously and fixed, disabled, or deleted,(reserve deletion for redundant tests)  as soon as possible.
 
 _Metric: are there tests failing today, and if so,which ones?  How many?_<br/>
 _Metric: How many days have these tests been failing for?_
      
-**Environmental efficiency - Time to production**.
+#### Environmental efficiency - Time to production
 How long does it take to push a fix or feature to production when you really need to?  Ideally this should be minutes, but it is still not uncommon to hear about environment gateways (think traditional Ops), configurations, environment health, build queues, testing cycles, social policies, that make pushing to production a far lengthier process.
 
 How does this affect team performance?  If the team can't push changes to an environment without waiting hours for a build queue to complete (this used to happen especially in legacy systems), for example, they are impeded by a significant bottleneck whose downstream effects are very significant.  Simply put, a slow push to prod is just very difficult and time consuming to work around. Quality often suffers greatly as a result.
 
 _Metric: How many minutes or hours between code commit and a push to production does it take your team?_
 
-**Release cadence and Release punctuality**.
+#### Release cadence and Release punctuality
 How frequently do you release to production?  While this is still a relevant metric for Continuous Delivery shops, it is more applicable to more traditional organisations. 
 
 _Metric: Release punctuality = Release date - Intended release date_
@@ -160,7 +215,7 @@ If your release puntuality is a significant issue, and your Intended release dat
 A target for more ambitious release dates, say, even monthly (although some may find this delay amusing, many organisations regard this as reasonble) is justified  commonly by 'insuffient time to build a set of features', or 'lengthy regression cycles'.  Interestingly, some teams resist due to the belief that more time is needed to ensure a quality release. Fortunately, there exists a robust positive correlation between a swift release cadence and release quality. Frequent releases facilitate constant testing and reduce code churn per release, leading to improved overall quality.
 
 
-**Regression test cycle time**
+#### Regression test cycle time
 It's not uncommon to observe regression test cycles lasting for several days, extending to over a week or more. This prolonged duration is often a compounded result of low *Environmental Efficiency* (as explained earlier).
 
 A protracted regression test cycle is not indicative of a high performing team. Several factors contribute to this, including the likelihood that developers are committing untested code and features while regression testing is ongoing. Also, bugs identified and fixed during the regression cycle may not undergo thorough testing. Additionally, an extended regression test cycle points to inadequacies in the breadth, robustness, or trustworthiness of automated tests, and likely a complete lack of performance tests. Notably, the risk of human error during regression testing increases with the duration of the cycle. For a large product, the maximum target for a manual regression test cycle per person should be less than half a day.
@@ -180,67 +235,78 @@ Work items stuck and piled up in the testing column is a good metric to monitor.
 There are good ways to remedy this, but we'll leave that out of the scope of this article, but as a quick pointer, [a read of basic Kanban principles](https://www.qwant.com/?q=kanban+wip) will take you a long way.
 
 <center>
-<img src="./General images/scrum.png" width="350" />
+<img src="./General images/scrum.png" width="60%" />
 </center>
 
     
 ### Quality, Reliability, and Confidence 
 How solid are the features that you have delivered?  
 
-**Bug count**: How many bugs have been identified since your push to production? (Continuous Delivery shops may want a tally of all recorded bugs instead here, or bugs recorded per week, or per month for example). How many bugs are picked up during the testing phase?
+#### Bug count
+ How many bugs have been identified since your push to production? (Continuous Delivery shops may want a tally of all recorded bugs instead here, or bugs recorded per week, or per month for example). How many bugs are picked up during the testing phase?
 
-**Bug severity**: What is the nature of these bugs?  How crictical are they? A count of critical bugs above zero is cause for action. 
+#### Bug severity
+ What is the nature of these bugs?  How crictical are they? A count of critical bugs above zero is cause for action. 
 
 
-**Speed of response**.  If an urgent bug is broadcast and it is immediately jumped on, you know you on to a good thing.  If the bug languashes and it needs to be followed up multiple times, a team meeting needs to be set up regarding its priority, hmmmm... well, you know... _Time to first response i.e., from initial broadcast of an important bug is a good measure._
+#### Speed of response
+  If an urgent bug is broadcast and it is immediately jumped on, you know you on to a good thing.  If the bug languashes and it needs to be followed up multiple times, a team meeting needs to be set up regarding its priority, hmmmm... well, you know... _Time to first response i.e., from initial broadcast of an important bug is a good measure._
 
-**Rollbacks and fixes**: How often do you need to patch fix?  How often do you need to roll back a change?  
+#### Rollbacks and fixes
+ How often do you need to patch fix?  How often do you need to roll back a change?  
 
-**Support tickets**: How many support tickets have been raised against a specific feature/release?  
+#### Support tickets How many support tickets have been raised against a specific feature/release?  
 
 These are important metrics and are useful to contrast against the Quantity metric as well as the Readiness metrics above.  A high Quantity metric indicating a large volume of features that is coupled together with a low Quality metic (I mean that you have a large volume of bugs per feature) is not great, but it beats a low Quantity _and_ low Quality metric.
 
 <center>
-<img src="./General images/QualitySpeedMatrix.png" width="400px" />
+<img src="./General images/QualitySpeedMatrix.png" width="60%" />
 </center>
 
-**Helpdesk sentiment**:
+#### Helpdesk sentiment
 Confidence; lots of bugs in a just-released product, time after time, will cause helpdesk to begin fearing your releases. Helpdesk's confidence in your release is a great measure, but if you need an actual metric, look for _"number of support tickets raised as a consequence of the release"_, and then map these tickets raised over time.
 
-**Helpdesk staff scheduling**:
+#### Helpdesk staff scheduling
 Are helpdesk scheduling staff each release cycle to cope with the incoming calls?  Or are they feeling easy and happy about the new features?  _Support tickets raised by Helpdesk (that relate to the new release) plotted over time_ are a good measure for this, just as is a good conversation with Helpdesk/Support staff.
 
-**Release confidence and staff scheduling**:
+#### Release confidence and staff scheduling
 A warning sign is when an abundance of the development team are allocated on-call during a release to production in an effort to counter the onslaught of potential bugs that will arise.  By all means, you should stand vigilant, but if your confidence in the quality of your environments and releases causes you to fret and stand-by an innordinate number of your development team as a mitigation exercise to poor quality.  
 
 _A simple metric of number of issues found in production within 5 days of a release cycle should work here_.  Reducing this to zero would be a goal.  
     
 
-## **Communication**.  
+## Communication  
 Communication within and between teams is vital.  Between roles and seniority levels.  During planning, problem solving, solutioning, design.  This isn't a comprehesive coverage of communication metrics, but simply things that I've considered and looked at in the past.
+
+### General comms metrics
 
 There are several comms health measures I tend to use:
 
-**Whiteboard design**: When involved concepts need to be discussed; involved designs, resolving difficult bugs, educating about business logic or existing architectures, do people in the team migrate towards a whiteboard, pick up a pen (or mouse) and share scribbles?  This is typically something I promote and like to see happen often because it generally leads to quicker outcomes.
+#### Whiteboard design 
+When involved concepts need to be discussed; involved designs, resolving difficult bugs, educating about business logic or existing architectures, do people in the team migrate towards a whiteboard, pick up a pen (or mouse) and share scribbles?  This is typically something I promote and like to see happen often because it generally leads to quicker outcomes.
 
 _Metric: How often do people gather around a whiteboard?  Never? Not good.  I can't think of an actual number here, but I'm tempted to say once for each major feature._
 
 
-**Distraction balance**:
+#### Distraction balance
 To me, it is good to see a hive of activity; busy pairs of people sitting at a computer to solve a problem, groups of people in a meeting room for 10 minutes to confirm a nuanced solution.  This is probably a contraversial one, but the measure that I look for is going from quiet where a pin could be heard dropping and everyone behaves like a lone wolf hardly ever interacting with others, to one where I begin to get people murmoring about the office being a bit noisy and that they are finding it difficult to get thier own work done.  Then I tend to adjust to wind back slightly to 'a couple of notches' below that threshold.
 
 _Metric: How many times a week do people ask for help or gather to help someone?  Every time they write a line of code 'aint great either.  Take the metric as an observational count (don't get people to record this for you because that's just silly) and compare week for week what the level of interaction is._
 
 
-**Peer programming**: One of the most productive (and fun) teams that I was involved with had two of the developers almost exclusively peer programming.  Both are talented seniors, but their mix of skillsets and approaches, and willingness to collaborate meant that they were able to achieve more together. Most people that I talk to about this topic treat it with smiling skepticism, but doing this well and doing this right can be a great weapon.  I understand that this is not for everyone, but people do need to be able to, at least time-to-time, share a desktop and a keyboard and solve a problem together.
+#### Peer programming
+ One of the most productive (and fun) teams that I was involved with had two of the developers almost exclusively peer programming.  Both were talented seniors, but their mix of skillsets and approaches, and willingness to collaborate meant that they were able to achieve more together. Most people that I talk to about this topic treat it with smiling skepticism, but doing this well and doing this right can be a great weapon.  I understand that this is not for everyone, but people do need to be able to, at least time-to-time, share a desktop and a keyboard and solve a problem together.
 
 A side-note here; I would promote and drive the peer programming concept when a team member stubbornly insists, day after day, that they don't need help even though it's clear that they do.  It's a good form of collaboration, and performed well can be a wonderful learning exercise.
 
 _Metric: How often do people sit together to code a solution?  0 : it is worth promoting peer programming as a tool for the right occassion._
 
 
-#### Meetings
-**Length, frequency and purpose**.  Short and sharp, or long and circular?  I know which I prefer. We all know what the painfull ones look like.  There are several flavours of bad meeting, but you know it's bad when you hear yourself utterring "that's an hour of my life that I'll never be able to claim back".
+### Meetings
+
+
+#### Length, frequency and purpose
+Short and sharp, or long and circular?  I know which I prefer. We all know what the painfull ones look like.  There are several flavours of bad meeting, but you know it's bad when you hear yourself utterring "that's an hour of my life that I'll never be able to claim back".
 
 As a side-note, the below are meant to be points of reflection, not meta-data that you should collect for each meeting every day. DO NOT document every single meeting with regards to this meta-data; and don't task someone to do this for you (please).  Practically, perhaps choose a week or a two-week period.  Look at your calendar to remind yourself of the meetings that your teams have partaken in. Choose a couple of the above metrics e.g., How many meetings over-run the scheduled time?  And how many meetings fulfilled their intended purpose?  Spend 5 minutes to evaluate each meeting against these questions.    We're after useful indicators rather than precise measurement so that you can make adjustments to your meeting practices.
 
@@ -274,64 +340,49 @@ Some good rules of thumb that I've found are;
  2) Two or three 30-minute meetings in a week can be a lot more effective than one lengthy 2 or 3-hour meeting.
 
 <center>
-<img src="./General images/MeetingTimes.png" width="350">
+<img src="./General images/MeetingTimes.png" width="60%">
 </center>
 
 Repetitive meeting topics going over the same ground can be partly remedied by documenting the meeting content and outcomes so that they can be referred to, by having a strong meeting facilitator who politely refers to the previous meeting notes, and also sticking to the meeting purpose.
 
-**Meeting positivity**: there is a vibe in positive meetings that can be measured in smiles per minute.  I'm joking. But we've all witnessed people who draw the energy out of the room. And we've all been part of positive meetings that are upbeat and productive without being contrived.  I don't take a metric here, but one I do often think of after a meeting is: 
+#### Meeting Positivity
+There is a vibe in positive meetings that can be measured in smiles per minute.  I'm joking. But we've all witnessed people who draw the energy out of the room. And we've all been part of positive meetings that are upbeat and productive without being contrived.  I don't take a metric here, but one I do often think of after a meeting is: 
     
 _'How many questions were asked?'... I guess this is a metric of sorts..._  
     
 Zero questions means that either everyone knew everything already, or they were being dictated to, or they couldn't wait to get out of the room.  Having some good quality questions that enhance understanding and even expose interesting and pertinent discussion are good questions, and are indicative of an interested group. 
 
 ## Softer team metrics
-**Team temperament (the imposter of triumph and disaster)**: this is a measure of a team's reaction to events, both positive and negative.  It shouldn't be mistaken for a measurement of team happiness, but moreso one of maturity.  Temperament can tell you whether a team is able to handle bad or good news, take the news in their stride, consider it, adjust, and then keep moving forward.  A highly oscillating temperament is not good. Over the top reactions are a sign of an immature team and can be an indicator of a leadership problem.  Regardless, the metric here is hard to define exactly, but can be graphed over time with respect to key events and the team's reaction to both positive and negative events: 
+#### Team temperament (the imposter of triumph and disaster)
+This is a measure of a team's reaction to events, both positive and negative.  It shouldn't be mistaken for a measurement of team happiness, but moreso one of maturity.  Temperament can tell you whether a team is able to handle bad or good news, take the news in their stride, consider it, adjust, and then keep moving forward.  A highly oscillating temperament is not good. Over the top reactions are a sign of an immature team and can be an indicator of a leadership problem.  Regardless, the metric here is hard to define exactly, but can be graphed over time with respect to key events and the team's reaction to both positive and negative events: 
     - name the events over time and,
     - out of a scale of 2 to -2 rate the team's reaction.  Better yet, get the team to evaluate themselves. 
     - 2s indicate a strong emotional reaction, 
     - 1s a light emotional reaction, and 
     - 0, none.  
     
-Generally speaking, avoiding 2s is beneficial.
+Annecdotally, I performed this exercise recently with my 10 year old favorite girl to highlight that some of her reactions were, shall we say, a little over the top.
 
-| Time       | Event                           | Team's Reaction |
-|------------|---------------------------------|-----------------|
-| 2024-01-01 | Successful Product Launch       | 1               |
-| 2024-02-15 | Critical Bug Found              | -2              |
-| 2024-03-10 | Positive Customer Feedback      | 1               |
-| 2024-04-05 | Key Team Member Resignation     | -2              |
-| 2024-05-20 | Project Milestone Achieved      | 1               |
-| 2024-06-01 | Team Meeting                    | 0               |
+Generally speaking, avoiding 2s is beneficial.  This contrived example below is interesting in that it shows a strong reaction to negative events.  What to do about this?  I apologise, but that's an involved topic for another discussion.
+
+<center>
+<img width=60% src="./General images/TeamTemperament.png">
+
+<em>This team exhibits a strong negative temperament.</em>
+</center>
 
 
-```mermaid
-xychart-beta
-    title "Sales Revenue"
-    x-axis [Successful Product Launch, Critical Bug Found, Positive Customer Feedback, Key Team Member Resignation, Project Milestone Achieved, Team Meeting]
-    y-axis "Temperament" -2  --> 2
-    bar [1, -2, 1, -2, 1, 0]
-```
-config:
-    xyChart:
-        width: 900
-        height: 600
-    themeVariables:
-        xyChart:
-            titleColor: "#ff0000"
+ #### Attrition of people 
+ How often do people leave your team/organisation and what are their reasons for leaving the team.  Is there a team that people don't typically want to work in and why is that?  A timeline of people leaving, the team that they have left, and the main reason for leaving can be quite revealing, especially within a large department, and drawn over a lengthy period of time.
+
+
+#### Team Flex, Eagerness and Embracing change 
+This may be a controversial measure, but I will often move people to form new teams, or join an existing team, in order to experiment with the balance of right people to get the job done.  Personalities, experience, eagerness, need for change, accuracy, mindset and attitude, speed, are some of the reasons that it is worth tinkering.  The measure isn't how often, but rather, how accepting are people of this movement?  Looking back at the past, it is one reasons that we've had some success in large project delivery; where teams could be flexed, shaped and changed.  If the culture is healthy, then this kind of thing isn't a big deal but moreso becomes a way that people feel they add real value as their strengths are harnessed.  Notwithstanding the downsides of this approach, I've found this kind of movement a weapon of a high-functioning software development workshop.
 
 
 
-
-
- **Attrition of people**: how often do people leave your team/organisation and what are their reasons for leaving the team.  Is there a team that people don't typically want to work in and why is that?  A timeline of people leaving, the team that they have left, and the main reason for leaving can be quite revealing, especially within a large department, and drawn over a lengthy period of time.
-
-
- **Team Flex, Eagerness and Embracing change**: this may be a controversial measure, but I will often move people to form new teams, or join an existing team, in order to experiment with the balance of right people to get the job done.  Personalities, experience, eagerness, need for change, accuracy, mindset and attitude, speed, are some of the reasons that it is worth tinkering.  The measure isn't how often, but rather, how accepting are people of this movement?  Looking back at the past, it is one reasons that we've had some success in large project delivery; where teams could be flexed, shaped and changed.  If the culture is healthy, then this kind of thing isn't a big deal but moreso becomes a way that people feel they add real value as their strengths are harnessed.  Notwithstanding the downsides of this approach, I've found this kind of movement a weapon of a high-functioning software development workshop.
-
-
-
- **Leadership and Positive resistance**: How many leaders exist in a team and how do they manifest themselves as leaders?  Does each team leader inspire confidence in you such that; you can have a difficult conversation with them?  Do they accurately and transparently reflect the remaining work and do they have a strong commitment to get the job done well?  Do they forsee issues with accuracy and talk about these?  Do leaders push back positively to you?  Do they push back in a way that helps you adjust your course of action? 
+ #### Leadership and Positive resistance
+  How many leaders exist in a team and how do they manifest themselves as leaders?  Does each team leader inspire confidence in you such that; you can have a difficult conversation with them?  Do they accurately and transparently reflect the remaining work and do they have a strong commitment to get the job done well?  Do they forsee issues with accuracy and talk about these?  Do leaders push back positively to you?  Do they push back in a way that helps you adjust your course of action? 
 
 If you look at your entire software development department, or even within a team, do you see many leaders, not just team leads, but leaders in different areas; cultural, quality, architecture, domain expertise, product experts, problem solving leaders, etc; people who are listened to and respected, people whose sphere of influence spans across teams and departments?  How many of these people exist in your team, or team of teams?  If your answer is very few, then this is something to work on:
 - your culture may be problematic; and not resulting in the kind of environment that encourages  people to grow or share these talents. 
@@ -349,7 +400,8 @@ So, as a rule of thumb, having a good team lead, and a good backup leader in tha
 And lastly:
 _Do you have a person that could replace you in your role?_
 
-**Greater than the sum of its parts and masking of weaknesses**: An important indicator that I see emerge out of good teams is how often team members cover for each others' weaknesses, such that the team rarely exposes these weaknesses.  This is a good sign of a great team culture.  It is difficult to measure, I'm sorry, but can be identified during standups and interaction between members offerring to help one another on specific tasks, sometimes stepping outside their own roles to offer advice or help.
+#### Greater than the sum of its parts and masking of weaknesses
+ An important indicator that I see emerge out of good teams is how often team members cover for each others' weaknesses, such that the team rarely exposes these weaknesses.  This is a good sign of a great team culture.  It is difficult to measure, I'm sorry, but can be identified during standups and interaction between members offerring to help one another on specific tasks, sometimes stepping outside their own roles to offer advice or help.
 
 It's great to see when a team member suggests to another, in a selfless fashion, that they'll work with that person to peer program this next diffcult part.
 
