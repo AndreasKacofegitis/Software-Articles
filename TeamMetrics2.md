@@ -1,10 +1,7 @@
 <link rel="stylesheet" type="text/css" href="./custom.css">
 
 # Practical Software Metrics for Teams
-
-<center>
-<img height="40px" width="100%" src="./General images/metricsLogo2.png">
-</center>
+  
 
 The most effective, productive, and engaged teams that I've worked with have used many of the metrics in this article.  While it wasn't appreciated at the time, we did use metrics to drive our behaviours to improve our practice, our processes, and our behaviours. Conversely, the one organisation that resisted the building of systems to promote these metrics, interestingly, was the lowest performing organisation I've witnessed.  Is there a strong correlation between the use of metrics and team performance?  I think so.  Regardless, employing some of the following metrics in your organisation will, at least, not hurt.
 
@@ -77,6 +74,9 @@ The word metric has its origins in the Greek language; derived from the word "me
 
 
 ## Metrics for team performance
+<center>
+<img width="70%"  src="./General images/meticsHeader.drawio.png">
+</center>
 Teams are the hallmark of your success; it's always people and I hope that it will always be people who are the pivot between success and failure.  The immediate thought of gauging team effectiveness through metrics may seem a little contrived and even a pointless managerial, bureaucratic, exercise.  Consider though the statement "I lead a high performing team".  And then ask "By what estimation do I believe that my team is high performing?".
 
 ### How to use these metrics
@@ -96,17 +96,21 @@ Some useful Team metrics include:
 
 _Metric: How many weeks of ready work are in your backlog?  Approximately 2-4 weeks of ready work is good._
 
-I very much like this metric because it is often a good indicator of healthy productivity, and that teams know what their immediate goals are.  Work not being deemed as Ready will be implemented less efficiently, and probably less accurately than otherwise.
+I very much like this metric because it is often a good indicator of healthy productivity, and that teams know what their immediate goals are.  Work not being deemed as Ready will be implemented less efficiently, and less accurately than otherwise.
 
 Ready work means that a feature is understood by the development team such that they can implement it without guesswork; workflows and their nuances are understood, UX is ready, Product has explained the requirements, the use cases, the key Personas, and also the value of the feature. Ultimately it is up to the team to determine what ready means to them and negotiate this with the Product Owner/Manager while ensuring that the departmental goals and business strategy are honoured.
 
 >Productivity is downstream of work readiness.
 
+>Quality is downstream of work readiness.
+
+If a team exhibits low productivity, it is advisable to look first at the 'the beginning of the funnel'.  This is a rule of thumb I will employ often.  The same stands true for quality.  Remember, not all teams are the same; some deal well with the uncertainty of 'less-ready' work.  But many definitely do not.  This is why 'ready' should be negotiated on a per-team basis.
+
 But how much ready work is necessary?  Just enough - enough so that the team know that they can progress on to the next set of work-items and have a quick conversation to clarify some fine-grained detail, and then begin the implementation in ernest.  Work items further out on the scheduling timeline don't need to be, and shouldn't be, super-refined.  Think of Work Readiness as a narrowing scope where the nearer the scheduled work item gets to the current iteration, the more refined it should be.  Having all items in a backlog ready is not much better than zero items in the backlog ready; the problem is different, but both cases cause great innefficiencies and delays.
 
 If you have no items in your current iteration that are deemed ready, your immediate job should be to ensure that these items are ready.  It is likely that this is the most important thing that can be done to ensure productivity and accuracy. 
 
-How ready are your teams?  Count the total items in the current iteration and determine which of these items are Ready.  All items in the current iteration should be ready (although for teams that prefer, they could refine thier work on a weekly basis in order to keep the information more current and pertinent).  A further 2 weeks should be nearly ready and planned, and a further month or two should be scheduled, but not completely ready. 
+How ready are your teams?  Count the total items in the current iteration and determine which of these items are/were Ready.  All items in the current iteration should be ready (although for teams that prefer, they could refine thier work on a weekly basis in order to keep the information more current and pertinent).  A further 2 weeks should be nearly ready and planned, and a further month or two should be scheduled, but not completely ready. 
 
 <center>
 <img src="./General images/RequirementsScopeOfUncertainty.png" width="60%" />
@@ -114,13 +118,13 @@ How ready are your teams?  Count the total items in the current iteration and de
 <em>The closer to being worked on, the more ready your work should be.  Agile is about making progress with imperfect information.  As the work gets closer, the less imperfect we expect the information.</em>
 </center>
 
-A word to the wise; don't expect perfection of Readiness; expect best effort. Questions regarding fine-tuning of requirements will always arise during implementation and this is OK.  However, if the team isn't aware of all the workflows that the feature will achieve, doesn't understand UX, doesn't understand architectural concerns yet, and the potential value of their work, then that item is not ready.
+A word to the wise; don't expect perfection of Readiness; expect best effort. Questions regarding fine-tuning of requirements will always arise during implementation and this is OK.  However, if the team isn't aware of all the workflows that the feature will achieve, doesn't understand UX, doesn't understand architectural concerns yet, and the potential value of their work, then that item is probably not ready.
 
 
 
 ## Delivery metrics
 
-Strive for predicatability of delivery.  Teams that achieve a **predicatable cadence** such that each period they regularly deliver a **good volume of features** such that you can **plan out the near and medium term future**, are doing well. (A period is up to you to define and can be as granualar as you want to make it).
+Strive for predicatability of delivery.  Teams that achieve a **predicatable cadence** such that each period they regularly deliver a **good volume of features** such that you can **plan out the near and medium term future**, are doing well. (A period is up to you to define and can be as granular as you want to make it).
 
 ### Predicatablity 
 An easy key indicator, or measure, is found in your ability to plan the near future; can you predict with some confidence, a team's ability to deliver work in the future?  Are you able to meet key delivery dates?  Are you able to commit to specific implementations or integrations for your customers or 3rd party integrators? 
@@ -181,7 +185,7 @@ _Measure: How consistently sized are the work items in a typical iteration?_
 <img width="60%" src="./General images/SizeVariationWorkItemsPerPeriod.drawio.png" />
 </center>
 
-I'm in favor of small work items with little variation in size, when possible.  This allows for more predictability, ability to get the work 'Ready',  a higher 'completion rate' and feeling of productivity, better quality through better testability, and of course, better _consistency_.  It also probably means that the team has enough understanding to create a small enough work item.  There are downsides, such as managing of work items is more cumbersome, difficult to see the forest for the trees, and a sense of 'false-decomposition', but these can be mitigated by well-intending, eager teams, tools such as storymapping, and a keen constant eye on the backlog.
+I'm in favor of small work items with little variation in size, when possible.  This allows for more predictability, ability to get the work 'Ready',  a higher 'completion rate' and feeling of productivity, better quality through better testability, and of course, better _consistency_.  It also probably means that the team has enough understanding to create a small enough work item.  There are downsides, such as managing of work items is more cumbersome, difficult to see the forest for the trees, and a sense of 'false-decomposition', but these can be mitigated by well-intending, eager teams, tools such as storymapping, associating work items with high-level epics, and a keen constant eye on the backlog.
 
 ### DevOps
 Remember that the following metrics are intended to be indicators of high performing teams, and not necessarily of a good, healthy DevOps process; although the two conceptual domains overlap significantly.
@@ -193,26 +197,27 @@ Over a period is a short cut indicator towards developer productivity.  Short sh
 #### Automated tests
 Failing unit, integration and UI tests are an important indicator and metric, and should always be treated seriously and fixed, disabled, or deleted,(reserve deletion for redundant tests)  as soon as possible.
 
-_Metric: are there tests failing today, and if so,which ones?  How many?_<br/>
-_Metric: How many days have these tests been failing for?_
+_Metric: What is the code coverage for your products?_
+_Metric: Are there tests failing today, and if so,which ones?  How many?_<br/>
+_Metric: How many days have these tests been failing for?_<br/>
      
 #### Environmental efficiency - Time to production
-How long does it take to push a fix or feature to production when you really need to?  Ideally this should be minutes, but it is still not uncommon to hear about environment gateways (think traditional Ops), configurations, environment health, build queues, testing cycles, social policies, that make pushing to production a far lengthier process.
+How long does it take to push a fix or feature to production?  Ideally this should be minutes, but it is still not uncommon to hear about environment gateways (think traditional Ops), configurations, environment health, build queues, testing cycles, social policies, that make pushing to production a far lengthier process.
 
 How does this affect team performance?  If the team can't push changes to an environment without waiting hours for a build queue to complete (this used to happen especially in legacy systems), for example, they are impeded by a significant bottleneck whose downstream effects are very significant.  Simply put, a slow push to prod is just very difficult and time consuming to work around. Quality often suffers greatly as a result.
 
-_Metric: How many minutes or hours between code commit and a push to production does it take your team?_
+_Metric: How many minutes, or hours, or days between code commit and a push to production does it take your team?_
 
 #### Release cadence and Release punctuality
 How frequently do you release to production?  While this is still a relevant metric for Continuous Delivery shops, it is more applicable to more traditional organisations. 
 
 _Metric: Release punctuality = Release date - Intended release date_
 
-Your ideal target Release Punctuality days is zero.
+Your target for Release Punctuality days is zero.
 
 If your release puntuality is a significant issue, and your Intended release date does not follow a regular cadence, one month per release for example, then your first step should be to agree on and target a reasonable cadence of release, if possible.  Irregular release cadence can be a significant contributor to missed release dates.
 
-A target for more ambitious release dates, say, even monthly (although some may find this delay amusing, many organisations regard this as reasonble) is justified  commonly by 'insuffient time to build a set of features', or 'lengthy regression cycles'.  Interestingly, some teams resist due to the belief that more time is needed to ensure a quality release. Fortunately, there exists a robust positive correlation between a swift release cadence and release quality. Frequent releases facilitate constant testing and reduce code churn per release, leading to improved overall quality.
+A resistance for more ambitious release dates, say, even monthly (although some may find this target amusing, many organisations regard this as reasonble, or even hard to achieve) is justified  commonly by 'insuffient time to build a set of features', or 'lengthy and honorous regression cycles'.  Interestingly, some teams resist due to the belief that more time is needed to ensure a quality release. Fortunately, there exists a robust positive correlation between a swift release cadence and release quality. Frequent releases facilitate constant testing and reduce code churn per release, leading to improved overall quality.
 
 
 #### Regression test cycle time
