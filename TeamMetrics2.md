@@ -3,14 +3,13 @@
 # Practical Software Metrics for Teams
   
 
-The most effective, productive, and engaged teams that I've worked with have used many of the metrics in this article.  While it wasn't appreciated at the time, we did use metrics to drive our behaviours to improve our practice, our processes, and our behaviours. Conversely, the one organisation that resisted the building of systems to promote these metrics, interestingly, was the lowest performing organisation I've witnessed.  Is there a strong correlation between the use of metrics and team performance?  I think so.  Regardless, employing some of the following metrics in your organisation will, at least, not hurt.
+The most effective, productive, and engaged teams that I've worked with have used many of the metrics in this article.  While it wasn't appreciated at the time, we did use metrics to drive our behaviours to improve our practice, our processes, and our behaviours. Conversely, the one organisation that resisted the building of systems to promote these metrics, interestingly, was the lowest performing organisation I've witnessed.  Is there a strong correlation between the well-inteding use of metrics and team performance?  I think so.  Regardless, employing some of the following metrics in your organisation will, if well-selected, at least not hurt.
 
-
-Many of the below metrics require the actual data to back them.  It isn't the objective of this article to demonstate how to achieve this, and I generally assume that you have the data at hand.  If you don't, and there were many times that I didn't, the path to discovering the information was very fruitful and enlightening.  Often hard work, and sometimes requiring specific development time and effort.  And a great deal of persistence. But always worthwhile.
+Many of the below metrics require the actual data to back them.  It isn't the objective of this article to demonstate how to achieve this, and I generally assume that you have the data at hand.  If you don't, and there were many times that I didn't, the path to discovering the information was very fruitful and enlightening in and of itself.  Often this was hard work, and sometimes required specific development time and effort.  And a great deal of persistence. But always worthwhile.
 
 My desire is that this article makes you think, and hopefully, that you act.  Whether you agree with my points or not, I'd consider you taking one single action in your workplace a success.
 
-Please keep in mind that I've only lightly tread on each of the following points; most of  these are topics that are broad and deep, and often don't have only one single interpretation.  Ideally they would be elaborated upon further, but I'm very mindful of the saying "I'm sorry I didn't write less, but I ran out of time" (a contortion of Mark Twain's quote).  Regardless, this article is long enough. I'll look at a deeper dive into a selection of topics some time in the future and as feedback, or my whim, guides me.
+Please keep in mind that I've only lightly tread on each of the following points; most of  these are topics that are broad and deep, and often don't have only one single interpretation.  Ideally they would be elaborated upon further, but I'm very mindful of the saying "I'm sorry I didn't write less, but I ran out of time" (a contortion of Mark Twain's quote).  Regardless, this article is plenty long enough, so for what it's worth; I'm sorry I didn't write less, but I ran out of time :).  I'll look at a deeper dive into a selection of topics some time in the future and as feedback, or my whim, guides me.  Thanks so much for reading.
 
 
 
@@ -19,7 +18,9 @@ Please keep in mind that I've only lightly tread on each of the following points
   - [What is a metric?](#what-is-a-metric)
   - [Metrics for team performance](#metrics-for-team-performance)
     - [How to use these metrics](#how-to-use-these-metrics)
+  - [What is a High Performing team?](#what-is-a-high-performing-team)
   - [Ready Work: The beginning of the funnel](#ready-work-the-beginning-of-the-funnel)
+  - [Autonomy and Control](#autonomy-and-control)
   - [Delivery metrics](#delivery-metrics)
     - [Predicatablity](#predicatablity)
     - [Project burndown - daily chart](#project-burndown---daily-chart)
@@ -66,11 +67,11 @@ Metrics for software development, fall into the following overlapping categories
 2. To measure the success or effectiveness of major, or significant, features
 3. To ensure software, infrastructure, and key services are running smoothly
 
-
+This article focuses on "team performance" metrics.
 
 ## What is a metric?
 
-The word metric has its origins in the Greek language; derived from the word "metron" (μέτρον), used in a variety of contexts, but broadly meaning to 'measure', to 'count'.  For the purposes of this article, we'll use the term to mean something that can be measured, and also have a number attributed to it as a result of the measurement.
+The word metric has its origins in the Greek language; derived from the word "metron" (μέτρον), used in a variety of contexts, but broadly meaning to 'measure', or to 'count'.  For the purposes of this article, we'll use the term to mean something that can be measured, and also have a number attributed to it as a result of the measurement.
 
 
 ## Metrics for team performance
@@ -80,13 +81,39 @@ The word metric has its origins in the Greek language; derived from the word "me
 Teams are the hallmark of your success; it's always people and I hope that it will always be people who are the pivot between success and failure.  The immediate thought of gauging team effectiveness through metrics may seem a little contrived and even a pointless managerial, bureaucratic, exercise.  Consider though the statement "I lead a high performing team".  And then ask "By what estimation do I believe that my team is high performing?".
 
 ### How to use these metrics
-Firstly, I need to strongly emphasise that I'm a little bit wary of these kind of metrics because they can _easily be mis-used_.  These should be taken with a very large dose of context and also in combination with each other, and also other metrics and observations that you may think, or be aware, of.  This is to say that it wouldn't be a good idea to take just one, or even three, of these metrics and to use them solely to determine the strength of your team.  That would be a mistake and almost certainly give you a poor estimation, either to the upside or the downside, of your team's performance.
+Firstly, I need to strongly emphasise that I'm a little bit wary of metrics because they can _easily be mis-used_.  These should be taken with a very large dose of context and also in combination with each other, and also other metrics and observations that you may think, or be aware, of.  This is to say that it wouldn't be a good idea to take just one, or even three, of these metrics and to use them solely to determine the strength of your team.  That would be a mistake and almost certainly give you a poor estimation, either to the upside or the downside, of your team's performance. 
 
 On the other hand, to attempt to track all these metrics suggested below, is itself probably unwise too.  It's probable that you already use, at least, a few of these metrics. But if you read the below and find some metrics that would be beneficial to your workplace, choose 2 or 3, and go from there.  The below is not a prescription, so please don't treat it as such.  Treating this as a prespription will likely cause more issues that you're currently experiencing :).  
 
 In addition, it's worth noting the importance of educating stakeholders on the appropriate use of these metrics. This educational effort should target the functions, departments, or groups that actively consume these metrics.  Information radiators as metrics is the concept to pursue.  This is in stark contrast to utilising them as punitive tools to admonish teams with.
 
 And lastly; many of these metrics aren't necessarily publishable on a dashboard as are, say, Key Services metrics.  The Communication metrics, for example, aren't well suited to publication.  The Project burndown, however, is something that should be posted to the team and wider.  Consider your approach carefully through the lens of incentivasation - beware what you incentivise as you may just get what you're asking for.
+
+## What is a High Performing team?
+
+The definition of High Performance team is a team that has a high level of productivity and resilience.
+
+Achieving Results: The primary characteristic of a high-performing team is its ability to deliver tangible and measurable results that align with the organisation's goals and objectives. These results often surpass expectations and reflect the team's effectiveness.
+
+Efficiency and Productivity: High-performing teams are known for their efficiency and productivity. They accomplish tasks in a timely manner without sacrificing quality. The team's output is consistently high, and members work together seamlessly to optimize their workflow.
+
+Well practiced and dynamic: High-performing teams are able to handle unfamiliar tasks with confidence, curiosity, and fervour.  They have the breadth of experience and are practiced in the patterns of both success and failure such that they are able to apply these patterns alongside their wisdom to achieve a successful result.
+
+Adaptability: High-performing teams are adaptable and can navigate challenges and changes effectively. They respond quickly to new information, shifting priorities, and unforeseen obstacles, maintaining a focus on achieving their goals despite external pressures.
+
+Continuous Improvement: A commitment to continuous improvement is a hallmark of high-performing teams. They actively seek ways to enhance their processes, performance, and outcomes. Feedback is valued, and the team is open to making adjustments for better results.
+
+Effective Communication: Communication is clear, open, and frequent within high-performing teams. Team members share information, ideas, and feedback openly. This effective communication ensures that everyone is on the same page and working towards common goals.
+
+Collaboration and Teamwork: High-performing teams excel in collaboration. Members work together cohesively, leveraging each other's strengths and skills. There is a strong sense of unity, and individuals are willing to support one another to achieve shared objectives.
+
+Leadership: Strong leadership is crucial for high-performance. Leaders within the team inspire, motivate, and guide members toward success. They provide direction, set clear expectations, and foster a positive team culture.
+
+Commitment to Quality: High-performing teams prioritize quality in their work. They pay attention to detail, strive for excellence, and take pride in delivering high-quality outcomes. This commitment to quality sets them apart from average teams.
+
+Innovation and Creativity: These teams are not afraid to think outside the box. They encourage innovative thinking and creativity, fostering an environment where new ideas are welcomed, and members feel empowered to explore unconventional solutions.
+
+Positive Team Culture: A positive and supportive team culture is a key defining factor. High-performing teams value diversity, treat each other with respect, and create an inclusive environment where everyone feels valued and appreciated.
 
 Some useful Team metrics include:
 
@@ -120,6 +147,36 @@ How ready are your teams?  Count the total items in the current iteration and de
 
 A word to the wise; don't expect perfection of Readiness; expect best effort. Questions regarding fine-tuning of requirements will always arise during implementation and this is OK.  However, if the team isn't aware of all the workflows that the feature will achieve, doesn't understand UX, doesn't understand architectural concerns yet, and the potential value of their work, then that item is probably not ready.
 
+
+## Autonomy and Control
+
+Undoubtedly the better teams that I've witnessed have a mix of specialists and generalists; whether in the technology stack, or the domain. 
+
+The greater autonomy a team has, generally the better.  Although this notion of autonomy should not be mistaken for no direction.  Direction and autonomy are not mutually exlusive terms.
+
+Control, in softare development teams, often comes in the form of protectionism.  Protectionism is exhibited by team members who 'own' areas of work such that no one else typically contributes to it.  An example is the developer who works on an area, noted for its complexity and elegance, and when other members of the team attempt to work in that area, the controller may say:
+
+- oh no, you don't know enough to make changes there
+- just leave that to me, I'll get it done faster
+- it's too complicated
+- the rest of the team doesn't know enough/ have the necessary skills to make changes
+
+and the rest of the team may utter something like:
+- only 'Bob' understands that area
+- I've never worked in that area
+- I just don't understand that area
+- we'll need to wait until Bob is free
+
+and interestingly, the controller may also complain about the fact that:
+- developers are not capable of making changes in the protected area
+- developer throughput is slow and unreliable and of low quality
+- the controller themselves is bottlnecked and unable to do their job for the many questions they are asked and so very many jobs they have to do
+
+Consequentially, the odd metric that falls out of this 'controlling' behaviour is either idle developers, or developers not working on priority areas of work:
+
+_Metric: How often are developers idle or working on non-priority areas of work for waiting for the 'controller' to finish?_
+
+Of course, there are other reasons that people may be working on non-priority areas of work, and these are worth investigating; side-requests from other departments, pet-projects, stealth-ops, disengaged developers, etc.
 
 
 ## Delivery metrics

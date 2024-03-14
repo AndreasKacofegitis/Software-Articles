@@ -1,37 +1,76 @@
 # Practical Metrics for Key Services and Software
 
-Services and software are useless if they are not working as intended.  Actually, that's not quite true.  They're worse than useless.  Useless implies zero utility.  Worse than useless means that you are negatively affected by poorly functioning software or services.
+Services and software are useless if they are not working as intended.  Actually, that's not quite true.  They're worse than useless.  Useless implies zero utility.  Worse than useless means that one is negatively affected by poorly functioning software or services.
 
-What is the health of your key services, environmental infrastructure, and APIs?  How long would it take you to answer this question?  Honestly?
+What is the health of your key services, environmental infrastructure, and APIs?  How long would it take you to answer this question?
 
-**Seconds** : skim this article and add to it to share your knowledge.
+- **Seconds** : skim this article and add to it to share your knowledge.
 
-**Hours** : believe it or not, that's still not bad because it means that you know: 
-1) which services are key, 
-2) how and where to get at the information,
-3) that the data are reliable, 
-4) and that you know how to measure system health.
+- **Hours** : believe it or not, that's still not bad because it means that you know: 
+  1) which services are key, 
+  2) that you have the information
+  3) that you know how and where to get at the information,
+  4) that the data are reliable, or at least you know how to cleanse them, 
+  5) and that you know how to measure system health.
 
-You probably already know what needs to happen; it's just that you've either prioritised other work.  Perhaps this article will help to re-focus you.
+    You probably already know what needs to happen; it's just that you've either prioritised other work.  Perhaps this article will help to re-focus you.
 
-**Days+** : keep reading, you may learn something about where you should be heading.
+- **Days+** : keep reading, you may learn something about where you should be heading.
 
-## Behavior and mindset
-There have been past situations where we realised the sporadic unavailability of services; not recognised as being sporadically unavailable until dynamic metrics were introduced to bring it to the attention of the development team.
+## What is a Key service?
 
-Seeing this information is confronting and difficult.  But consider yourself fortunate that you now know and can do something about it.  Truly, this is a good way to look at things. You can now focus on resurrecting the service.  And you can work on finding a solution to it not going down again.
+A key service is something that is essential to the functioning of a user-accessabile, or service-accessible, system.  A key service helps to ensure that the core business function of the product is working as required.  While these types of definitions are open to subjective interpretation, a key service for a CRM, for example, may be the search service that enables fast finding of a customer.  Should this service become sluggish, it affects the user experience to the extent that the CRM app is unusable.
 
-So, firstly be thankful that you know.
+Other examples of keys services:
+
+**Authentication Service:** Ensuring secure access to the system or application.
+
+**Payment Processing Service:** Handling financial transactions securely and efficiently.
+
+**Database Service:** Managing and storing crucial data for the organization.
+
+**Communication Service:** Facilitating effective communication within the system or with external entities.
+
+**API (Application Programming Interface) Services:** Enabling integration with external applications or services.
+
+**Notification Service:** Informing users about important updates or events.
+
+## What should good metrics expose?
+
+What metric do we need?  What do we want to measure?  The question really is one step beyond the initial answer to "What is the question that you're trying to ask?", which is probably something like "Are my key services working as required?".  What do we mean by working as required?  This is where the answer needs thought.
+
+Uptime is a useful metric, but often won't give you the information that you need.  The uptime of a service won't won't divulge sluggishness, denied requests, timeouts, unprocessed transactions etc.  These are all reasonably serious issues, that won't be expressed by mere fact that the service was unavailable.
+
+Metric one if you have nothing else, and possibly easiest to measure is indeed the uptime of a service, however you should be deliving deeper to answer the question that we just posed: "Are my key services working as required?"
+
+
+
+
+## Healthy behavior and mindset
+It is difficult to describe the cold-sweat feeling of a key metric divulging information about the unreliability of a service that was previously thought to be working as required.  However, it turns out that this service was sporadically unavailable.  The thought of that over the past months that this phenomenon has caused slowness, time-outs, unreliability, and annoyance, really is confronting. 
+
+  <!-- It truly is bitter-sweet.  Bitter because you've let people down, and sweet because the metric has divulged useful information. -->
+
+TODO: the business case for investing in these services is a lot easier to make thanks to these metrics.
+
+
+But you may also consider yourself fortunate that you now know about this failure and that you can do something about it.  You can now focus on resurrecting the service.  And work may begin in ernest in finding a solution, temporary if need be, and then a more robust solution thereafter.
+
+So, firstly, be thankful that you know.  After all, this is the point of key metrics; to inform you of dire situations.  On the other hand, that isn't quite correct at all; the point of key metrics is to help inform you of potential issues before they become so problematic that they become critical.
 
 Secondly, strive to erradicate all the issues that are known.  Some issues will be critical, or nigh-critical and will need to be fixed immediately.  Fixing immediately versus fixing properly can often result in two different solutions.  Put this work on the backlog in accordance with your other priorities.
 
-Thirdly, strive to meet any departure from a healthy metric with urgency and an positive understanding that have avoided a great many users a great many annoyances.
+Thirdly, strive to meet any departure from a healthy metric with urgency and an positive understanding that have you avoided a great many users a great many annoyances.
 
 ### Fast feedback and happy customers
 
 At one software development shop, I remember that we'd wired up a push notification system that sent a message to me, and two others, the development lead/architect, and the Product Owner, to notify us of any significant user issues of their mobile apps. The team was so responsive that upon recognising a user issue, they would call the affected individual, describe to them the problem, and then implement a fix and notify them of the deployment.  We had a lot of happy customers as we managed so often to turn a negative into a positive encounter.  How many times have you been called by a tech representative apologising for your incovenience and managing a individual test build deployment for you? 
 
 Our user base was a few thousand users and it may be reasonable for the skeptical types to question the scalability of this approach.  Don't take this as an instruction or a recommendation, but take from it the positive mindset and technical capabilities that the team had built to promote such mechanics and processes.
+
+## Indicators vs Critical warnings
+
+TODO: Describe what a good metric is and that it requires consideration and should consider trends of data attempting to illustrate a pending issue rather than alert to a catastrophic issue.
 
 
 ## Down-time events
@@ -163,3 +202,16 @@ So, if the metric is the state of a queue length, for example, you may set the m
 
 
 Display on a monitor and choose up to 3 key data points, no more.  This can be hard to do as it is tempting to choose more metrics than fewer, but having more can send the key metric into obsurity.
+
+
+
+
+Use Telemetry to:
+- Prioritize feature development
+- Identify issues in the product
+- Performance optimisation
+- Validate changes and enhancements
+	- Better user engagement
+	- Reduced error rates
+	- Increased feature usage
+- Improve security
