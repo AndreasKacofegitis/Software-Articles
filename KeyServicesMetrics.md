@@ -58,13 +58,13 @@ But you may also consider yourself fortunate that you now know about this failur
 
 So, firstly, be thankful that you know.  After all, this is the point of key metrics; to inform you of dire situations.  On the other hand, that isn't quite correct at all; the point of key metrics is to help inform you of potential issues before they become so problematic that they become critical.
 
-Secondly, strive to erradicate all the issues that are known.  Some issues will be critical, or nigh-critical and will need to be fixed immediately.  Fixing immediately versus fixing properly can often result in two different solutions.  Put this work on the backlog in accordance with your other priorities.
+Secondly, strive to eradicate all the issues that are known.  Some issues will be critical, or nigh-critical and will need to be fixed immediately.  Fixing immediately versus fixing properly can often result in two different solutions.  Put this work on the backlog in accordance with your other priorities.
 
 Thirdly, strive to meet any departure from a healthy metric with urgency and an positive understanding that have you avoided a great many users a great many annoyances.
 
 ### Fast feedback and happy customers
 
-At one software development shop, I remember that we'd wired up a push notification system that sent a message to me, and two others, the development lead/architect, and the Product Owner, to notify us of any significant user issues of their mobile apps. The team was so responsive that upon recognising a user issue, they would call the affected individual, describe to them the problem, and then implement a fix and notify them of the deployment.  We had a lot of happy customers as we managed so often to turn a negative into a positive encounter.  How many times have you been called by a tech representative apologising for your incovenience and managing a individual test build deployment for you? 
+At one software development shop, I remember that we'd wired up a push notification system that sent a message to me, and two others, the development lead/architect, and the Product Owner, to notify us of any significant user issues with their mobile apps. The team was so responsive that upon recognising a user issue, they would call the affected individual, describe to them the problem, and then implement a fix and notify them of the deployment.  We had a lot of happy customers as we managed so often to turn a negative into a positive encounter.  How many times have you been called by a tech representative apologising for your inconvenience and managing an individual test build deployment for you? 
 
 Our user base was a few thousand users and it may be reasonable for the skeptical types to question the scalability of this approach.  Don't take this as an instruction or a recommendation, but take from it the positive mindset and technical capabilities that the team had built to promote such mechanics and processes.
 
@@ -74,19 +74,19 @@ TODO: Describe what a good metric is and that it requires consideration and shou
 
 
 ## Down-time events
-Key services going down and not being available is critical and ultimately leads to user dissatisfaction, data corruption, and/or possibly broken SLAs (Service Level Agreement).  These are all bad.
+Key services going down and not being available is critical and ultimately leads to user dissatisfaction, data corruption, and/or possibly broken SLAs (Service Level Agreements).  These are all bad.
 
 _Metric: When did the service experience an outage?_
 
-_Metric: How long did the service experience an outage for?_
+_Metric: How long did the service experience an outage?_
 
-Create a table of these services and thier relative information over time.
+Create a table of these services and their relative information over time.
 
 
 ### Timeouts
 Timeouts can be indicative of a poorly performing service.  Considerations such as CPU utilization, memory usage, data bandwidth/payload size, network connectivity, code efficiency, database query efficiency, poorly load-balanced services, and downstream service dependencies can all be factors. There are of course, more. Regardless, timeouts are frustrating and will usually result in a poor user experience.
 
-Finding the source of the problem of a timeout can be very complex exercise.
+Finding the source of the problem of a timeout can be a very complex exercise.
 
 Importantly, it is useful to recognise that there are different ways timeouts can manifest and one must be curious to investigate even the seemingly innocuous timeout.
 
@@ -95,24 +95,24 @@ _Metric: When do these timeouts happen?  Date, Timestamp?_
 _Metric: What is the duration of the timeouts?  How many seconds?_
 
 ### Total up-time as a percentage of the year
-While these up-time metrics could be thought of as the opposite of the downtime metrics, the services that you may be interested for both measures may not have a 100% correlation.
+While these up-time metrics could be thought of as the opposite of the downtime metrics, the services that you may be interested in for both measures may not have a 100% correlation.
 
-For example, you SLA may guarantee that you have four 9s uptime per annum for key nominated services.  These services need to have a recorded value against them of actual uptime so that you may take action if it is discovered that they are 'down'.  This value is of interest to you and of course your customers.
+For example, your SLA may guarantee that you have four 9s uptime per annum for key nominated services.  These services need to have a recorded value against them of actual uptime so that you may take action if it is discovered that they are 'down'.  This value is of interest to you and of course your customers.
 
 _Metric: For each key service, what is the total uptime in terms of percentage?_
 
-_Metric: When and how long for were these services not operational?_
+_Metric: When and for how long were these services not operational?_
 
 
 ## Performance metrics for key services
 Regardless of the service being available or not, your service being slow and sluggishly responsive can provide for a frustrating user experience, among many other untoward side-effects.
 [TODO: Describe metrics expectations]
 
-The following metrics are useful in their own right, but also in correlation to each other moreso.  Seeing patterns of behaviour requires information over time, both at the low-level and also at the high-level, and being able to dance and correlate metrics and information across all these.
+The following metrics are useful in their own right, but more so in correlation to each other.  Seeing patterns of behaviour requires information over time, both at the low-level and also at the high-level, and being able to dance and correlate metrics and information across all these.
 
-Applications like Splunk, GreyLog are great for combining and parsing logs and metrics of different formats and pivoting to form views and correlations across time.
+Applications like Splunk and GreyLog are great for combining and parsing logs and metrics of different formats and pivoting to form views and correlations across time.
 
-While these applications and metrics are exceptionally useful, what we're after here though, are moreso individual key metrics that are indicators of good or bad performance that are worthy of further analysis, or commendation and congratulations to the development team.
+While these applications and metrics are exceptionally useful, what we're after here though, are individual key metrics that are indicators of good or bad performance that are worthy of further analysis, or commendation and congratulations to the development team.
 
 ### CPU load
 Ideally, CPU load should stay below 80% to ensure smooth operation and prevent performance bottlenecks.
@@ -130,14 +130,14 @@ Long queues (> 100 items) could suggest slow processing or overloaded services. 
 Analyze traffic patterns to understand peak periods and adjust resources accordingly. Unexpected spikes might indicate anomalies or potential attacks.
 
 ### Trending requests and hits over time
-Track changes in request and hit patterns to identify emerging trends and potential issues before they impact performance.
+Track changes in requests and hit patterns to identify emerging trends and potential issues before they impact performance.
 
 ### API response times
 Aim for consistent and fast response times (ideally under 200ms). Slow responses can frustrate users and negatively impact conversion rates.
 
 
 ### Service warm up times
-How long does it take for a service to go from cold to servicing a request and returning a response.  Is it dependant on a number of other services and can these dependencies be graphed to determine bottlenecks in performance.
+How long does it take for a service to go from cold to servicing a request and returning a response?  Is it dependent on other services and can these dependencies be graphed to determine bottlenecks in performance?
 
 ### API response times using parallelisation - saturation points
 Analyze how response times change under increased load. Identify saturation points where performance begins to drop and optimize resources to handle higher concurrency.
@@ -145,7 +145,7 @@ Analyze how response times change under increased load. Identify saturation poin
 ## Usage metrics
 
 ### API endpoint usage metrics
-Which endpoints are most popular
+Which endpoints are the most popular
 
 ### Data requests/API endpoint metrics
 
@@ -174,7 +174,7 @@ Often metrics can be sourced from multiple measures; they are not just provided 
 [TODO: finish this off to show diversity of sources]
 
 ## Dashboards to drive minimal user disruption
-Initially, I use a dashboard to display key services and information that, if in a bad state, warrants urgent investigation and potential fix.  This can sound easy to achieve, but can be rather difficult to achieve; I've heard of more failed dashboards than successful ones.  "Oh we used to use a dashboard for key services and metrics, but we don't use it anymore." is a common uttering.
+Initially, I use a dashboard to display key services and information that, if in a bad state, warrants urgent investigation and a potential fix.  This can sound easy to achieve, but can be rather difficult to achieve; I've heard of more failed dashboards than successful ones.  "Oh we used to use a dashboard for key services and metrics, but we don't use it anymore." is a common uttering.
 
 To make a dashboard pertinent and of high utility, the data needs to be accurate, simple, and the indicators must also be accurate. A dashboard that displays a number values, with each value on a background that displays as Green, Orange, or  Red.
 - Red: critical/urgent, needs immediate attention and investigation 
@@ -188,7 +188,7 @@ The metrics discussed in this article can mostly be brought into a dashboard tha
 Encourage a culture of immediate response to red alerts and continuous improvement of metrics. Celebrate achievements and share success stories to keep teams motivated.
 
 ### Avoid false positives and false negatives
-False positives are inevitable, but unless they are fixed very quickly, the dashboard is destined to be thrown on to the 'we used to do that' bonfire.  You don't want a dashboard that displays Christmas tree light information; a number of metrics highlighed as red (critical/urgent) with the team deciding to not investigate the cause of these failures because they deem the metrics unreliable.
+False positives are inevitable, but unless they are fixed very quickly, the dashboard is destined to be thrown on to the 'we used to do that' bonfire.  You don't want a dashboard that displays Christmas tree light information; a number of metrics highlighted as red (critical/urgent) with the team deciding to not investigate the cause of these failures because they deem the metrics unreliable.
 
 A good behavior is when a metric is displayed as red, the team _immediately_ jumps on to resolve the situation and ensure a green state.  Always.
 
