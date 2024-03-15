@@ -1,0 +1,1 @@
+Agile is the practice of **getting things done with imperfect information** appreciating that you will discover more of the necessary information through experimentation and testing.
