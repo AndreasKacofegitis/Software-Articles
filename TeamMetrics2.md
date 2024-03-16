@@ -18,9 +18,9 @@ Please keep in mind that I've only lightly tread on each of the following points
   - [What is a metric?](#what-is-a-metric)
   - [Metrics for team performance](#metrics-for-team-performance)
     - [How to use these metrics](#how-to-use-these-metrics)
-  - [What is a High Performing team?](#what-is-a-high-performing-team)
-  - [Ready Work: The beginning of the funnel](#ready-work-the-beginning-of-the-funnel)
-  - [Autonomy and Control](#autonomy-and-control)
+  - [Features: Preparation and Completion](#features-preparation-and-completion)
+    - [Amount of Ready work: The beginning of the funnel](#amount-of-ready-work-the-beginning-of-the-funnel)
+  - [Done Work: The end of the funnel](#done-work-the-end-of-the-funnel)
   - [Delivery metrics](#delivery-metrics)
     - [Predicatablity](#predicatablity)
     - [Project burndown - daily chart](#project-burndown---daily-chart)
@@ -31,7 +31,8 @@ Please keep in mind that I've only lightly tread on each of the following points
       - [Commit activity](#commit-activity)
       - [Automated tests](#automated-tests)
       - [Environmental efficiency - Time to production](#environmental-efficiency---time-to-production)
-      - [Release cadence and Release punctuality](#release-cadence-and-release-punctuality)
+      - [Release cadence](#release-cadence)
+      - [Release punctuality](#release-punctuality)
       - [Regression test cycle time](#regression-test-cycle-time)
     - [Process and Bottlenecks](#process-and-bottlenecks)
     - [Quality, Reliability, and Confidence](#quality-reliability-and-confidence)
@@ -57,7 +58,11 @@ Please keep in mind that I've only lightly tread on each of the following points
       - [Team Flex, Eagerness and Embracing change](#team-flex-eagerness-and-embracing-change)
       - [Leadership and Positive resistance](#leadership-and-positive-resistance)
       - [Greater than the sum of its parts and masking of weaknesses](#greater-than-the-sum-of-its-parts-and-masking-of-weaknesses)
+      - [End user empathy](#end-user-empathy)
+    - [Control and Protectionism](#control-and-protectionism)
 - [Conclusion](#conclusion)
+- [Appendix](#appendix)
+  - [What is a High Performing team?](#what-is-a-high-performing-team)
 
 
 ## Metrics Categories
@@ -85,57 +90,35 @@ Firstly, I need to strongly emphasise that I'm a little bit wary of metrics beca
 
 On the other hand, to attempt to track all these metrics suggested below, is itself probably unwise too.  It's probable that you already use, at least, a few of these metrics. But if you read the below and find some metrics that would be beneficial to your workplace, choose 2 or 3, and go from there.  The below is not a prescription, so please don't treat it as such.  Treating this as a prespription will likely cause more issues that you're currently experiencing :).  
 
-In addition, it's worth noting the importance of educating stakeholders on the appropriate use of these metrics. This educational effort should target the functions, departments, or groups that actively consume these metrics.  Information radiators as metrics is the concept to pursue.  This is in stark contrast to utilising them as punitive tools to admonish teams with.
+Metrics are not the panacea of the determination of team success.  They are simply guides and points for consideration and should always be treated as such.  Simply saying that one is healthy because their heart rate is low at rest is most certainly not a sign of perfect health.  An economy with a very low rate of unemployment says nothing of productivity.  Likewise, metrics in software, of productivity say, are firstly, vague indicators, and secondly don't capture the full picture of team 'goodness'.
 
-And lastly; many of these metrics aren't necessarily publishable on a dashboard as are, say, Key Services metrics.  The Communication metrics, for example, aren't well suited to publication.  The Project burndown, however, is something that should be posted to the team and wider.  Consider your approach carefully through the lens of incentivasation - beware what you incentivise as you may just get what you're asking for.
+In addition, it's worth noting the importance of educating stakeholders on the appropriate use of these metrics. This educational effort should target the functions, departments, or groups that actively consume these metrics.  Metrics as "Information radiators" is the concept to pursue.  This is in stark contrast to utilising them as punitive tools to admonish teams with.
 
-## What is a High Performing team?
+And lastly; many of these metrics aren't necessarily publishable on a dashboard as are, say, Key Services metrics.  The [Communication metrics](#communication), for example, aren't well suited to publication.  The [Project burndown](#project-burndown---daily-chart), however, is something that should be posted to the team and wider.  Consider your approach carefully through the lens of incentivasation - beware what you incentivise as you may just get what you're asking for.
 
-The definition of High Performance team is a team that has a high level of productivity and resilience.
 
-Achieving Results: The primary characteristic of a high-performing team is its ability to deliver tangible and measurable results that align with the organisation's goals and objectives. These results often surpass expectations and reflect the team's effectiveness.
 
-Efficiency and Productivity: High-performing teams are known for their efficiency and productivity. They accomplish tasks in a timely manner without sacrificing quality. The team's output is consistently high, and members work together seamlessly to optimize their workflow.
+## Features: Preparation and Completion
 
-Well practiced and dynamic: High-performing teams are able to handle unfamiliar tasks with confidence, curiosity, and fervour.  They have the breadth of experience and are practiced in the patterns of both success and failure such that they are able to apply these patterns alongside their wisdom to achieve a successful result.
-
-Adaptability: High-performing teams are adaptable and can navigate challenges and changes effectively. They respond quickly to new information, shifting priorities, and unforeseen obstacles, maintaining a focus on achieving their goals despite external pressures.
-
-Continuous Improvement: A commitment to continuous improvement is a hallmark of high-performing teams. They actively seek ways to enhance their processes, performance, and outcomes. Feedback is valued, and the team is open to making adjustments for better results.
-
-Effective Communication: Communication is clear, open, and frequent within high-performing teams. Team members share information, ideas, and feedback openly. This effective communication ensures that everyone is on the same page and working towards common goals.
-
-Collaboration and Teamwork: High-performing teams excel in collaboration. Members work together cohesively, leveraging each other's strengths and skills. There is a strong sense of unity, and individuals are willing to support one another to achieve shared objectives.
-
-Leadership: Strong leadership is crucial for high-performance. Leaders within the team inspire, motivate, and guide members toward success. They provide direction, set clear expectations, and foster a positive team culture.
-
-Commitment to Quality: High-performing teams prioritize quality in their work. They pay attention to detail, strive for excellence, and take pride in delivering high-quality outcomes. This commitment to quality sets them apart from average teams.
-
-Innovation and Creativity: These teams are not afraid to think outside the box. They encourage innovative thinking and creativity, fostering an environment where new ideas are welcomed, and members feel empowered to explore unconventional solutions.
-
-Positive Team Culture: A positive and supportive team culture is a key defining factor. High-performing teams value diversity, treat each other with respect, and create an inclusive environment where everyone feels valued and appreciated.
-
-Some useful Team metrics include:
-
-## Ready Work: The beginning of the funnel
-
-**Amount of Ready work**: 
+### Amount of Ready work: The beginning of the funnel
 
 _Metric: How many weeks of ready work are in your backlog?  Approximately 2-4 weeks of ready work is good._
 
 I very much like this metric because it is often a good indicator of healthy productivity, and that teams know what their immediate goals are.  Work not being deemed as Ready will be implemented less efficiently, and less accurately than otherwise.
 
-Ready work means that a feature is understood by the development team such that they can implement it without guesswork; workflows and their nuances are understood, UX is ready, Product has explained the requirements, the use cases, the key Personas, and also the value of the feature. Ultimately it is up to the team to determine what ready means to them and negotiate this with the Product Owner/Manager while ensuring that the departmental goals and business strategy are honoured.
+Ready work means that a feature is understood by the development team such that they can implement it without guesswork; workflows and their nuances are understood, UX is ready, the requirements are understood, the use cases, the key Personas, and also the value of the feature. Ultimately it is up to the team to determine what ready means to them and negotiate this with the Product Owner/Manager while ensuring that the departmental goals and business strategy are honoured.  A useful question "Why is this piece of work useful to the client?" can help to uncover work readiness.
 
 >Productivity is downstream of work readiness.
 
 >Quality is downstream of work readiness.
 
-If a team exhibits low productivity, it is advisable to look first at the 'the beginning of the funnel'.  This is a rule of thumb I will employ often.  The same stands true for quality.  Remember, not all teams are the same; some deal well with the uncertainty of 'less-ready' work.  But many definitely do not.  This is why 'ready' should be negotiated on a per-team basis.
+If a team exhibits low productivity, it is advisable to look first at the 'the beginning of the funnel'.  This is a rule of thumb I will employ often.  The same stands true for quality.  Remember, not all teams are the same; some deal well with the uncertainty of 'less-ready' work, but many definitely do not.  This is why 'ready' should be negotiated on a per-team basis.
 
-But how much ready work is necessary?  Just enough - enough so that the team know that they can progress on to the next set of work-items and have a quick conversation to clarify some fine-grained detail, and then begin the implementation in ernest.  Work items further out on the scheduling timeline don't need to be, and shouldn't be, super-refined.  Think of Work Readiness as a narrowing scope where the nearer the scheduled work item gets to the current iteration, the more refined it should be.  Having all items in a backlog ready is not much better than zero items in the backlog ready; the problem is different, but both cases cause great innefficiencies and delays.
+Can you begin work that is not well understood?  Yes, you can.  Although typically unintentional, this is a very common approach.  The down-side of this is that it will likely increase your development time.  This is not an invitation to step back to waterfall development, but it is an invitation to ensure that you and your team understand the intention, the scope, the requirements, of your feature increment before you get your tools out and start building.
 
-If you have no items in your current iteration that are deemed ready, your immediate job should be to ensure that these items are ready.  It is likely that this is the most important thing that can be done to ensure productivity and accuracy. 
+But how much ready work is necessary?  Just enough - enough so that the team know that they can progress on to the _next set of work-items_ and have a quick conversation to clarify some fine-grained detail, and then begin the implementation in ernest.  Work items further out on the scheduling timeline don't need to be, and shouldn't be, super-refined.  Think of Work Readiness as a narrowing scope where the nearer the scheduled work item gets to the current iteration, the more refined it should be.  Having all items in a backlog ready is not much better than zero items in the backlog ready; the problem is different, but both cases cause great innefficiencies and delays.
+
+If you have no items in your current iteration that are deemed ready, your immediate job should be to ensure that these items are ready.  It is likely that this is the most important and useful thing that can be done to ensure productivity and accuracy. 
 
 How ready are your teams?  Count the total items in the current iteration and determine which of these items are/were Ready.  All items in the current iteration should be ready (although for teams that prefer, they could refine thier work on a weekly basis in order to keep the information more current and pertinent).  A further 2 weeks should be nearly ready and planned, and a further month or two should be scheduled, but not completely ready. 
 
@@ -148,35 +131,16 @@ How ready are your teams?  Count the total items in the current iteration and de
 A word to the wise; don't expect perfection of Readiness; expect best effort. Questions regarding fine-tuning of requirements will always arise during implementation and this is OK.  However, if the team isn't aware of all the workflows that the feature will achieve, doesn't understand UX, doesn't understand architectural concerns yet, and the potential value of their work, then that item is probably not ready.
 
 
-## Autonomy and Control
+## Done Work: The end of the funnel
 
-Undoubtedly the better teams that I've witnessed have a mix of specialists and generalists; whether in the technology stack, or the domain. 
+Good teams know when work is complete because they have a firm grasp of the requirements, and they also have a firm grasp of the testing necessary to ensure that the work is of sufficient quality.  They also have a solid process regarding check ins and branching policies, documentation, and publishing their work to the agreed environments.
 
-The greater autonomy a team has, generally the better.  Although this notion of autonomy should not be mistaken for no direction.  Direction and autonomy are not mutually exlusive terms.
+For example, Done may mean: code is reviewed and merged from the feature branch into develop, implementation available and tested on Test Environment, all known issues are fixed (there are no known issues), sufficient automated tests written and passing, manual testing completed and passed, implementation marked as satisfactory by the end user representative, release notes written.
 
-Control, in softare development teams, often comes in the form of protectionism.  Protectionism is exhibited by team members who 'own' areas of work such that no one else typically contributes to it.  An example is the developer who works on an area, noted for its complexity and elegance, and when other members of the team attempt to work in that area, the controller may say:
 
-- oh no, you don't know enough to make changes there
-- just leave that to me, I'll get it done faster
-- it's too complicated
-- the rest of the team doesn't know enough/ have the necessary skills to make changes
+_Metric: Does your team have a common understanding of what Done means?_
 
-and the rest of the team may utter something like:
-- only 'Bob' understands that area
-- I've never worked in that area
-- I just don't understand that area
-- we'll need to wait until Bob is free
-
-and interestingly, the controller may also complain about the fact that:
-- developers are not capable of making changes in the protected area
-- developer throughput is slow and unreliable and of low quality
-- the controller themselves is bottlnecked and unable to do their job for the many questions they are asked and so very many jobs they have to do
-
-Consequentially, the odd metric that falls out of this 'controlling' behaviour is either idle developers, or developers not working on priority areas of work:
-
-_Metric: How often are developers idle or working on non-priority areas of work for waiting for the 'controller' to finish?_
-
-Of course, there are other reasons that people may be working on non-priority areas of work, and these are worth investigating; side-requests from other departments, pet-projects, stealth-ops, disengaged developers, etc.
+_Metric: What percentage of your completed work needs no further steps or work to get it into the hands of the customer?_
 
 
 ## Delivery metrics
@@ -220,16 +184,18 @@ _Metric: How much work is remaining to complete in your current projects?_
 <img width="60%" src="./General images/QuantityWorkItemsPerPeriod.drawio.png" />
 </center>
 
-What is the count of features per period that you are delivering?  If you have varying sizes of feature implementations, you can always tally per category e.g., 1 large feature, 2 medium, and 5 small features, plus 8 bug fixes.  Consider tracking this as an accumulating metric against your project burndown(s).
+What is the count of features per period that you are delivering?  If you have varying sizes of feature implementations, you can always tally per category e.g., 1 large feature, 2 medium, and 5 small features, plus 8 bug fixes.  Consider tracking this as an accumulating metric alongside your project burndown(s).
 
 ### Consistency of Quantity 
-To be predictable you don't necessarily need consistency of quantity of features, you need moreso reliability.  But consistency helps a lot.
+To be predictable you don't necessarily need consistency of quantity of features, you need moreso reliability to deliver the project; this is because when there is a push to complete a project, this push results in an increase (usually) of work completed.  This necessarily breaks, and should break, the consistency pattern because you really do not want to push full steam all the time.  But having a measure of consistency helps you to understand what you can deliver in a given situation.
 
 <center>
 <img width="60%" src="./General images/QuantityConsistencyWorkItemsPerPeriod.drawio.png" />
 </center>
 
 Are you delivering a consistent number of features each release cycle?  There may be many different reasons for not doing so, such as inconsistent feature sizing, such as an insufficient pipeline of work that is not ready for implementation, such as team capability and capacity, but if you can tally the number of delivered features as per above, and do so over a period of time, you have a nice illuminating metric.
+
+I'll repeat that I'm uncertain if consistency of production is the goal.  It is the metric itself that is useful.  I'll leave it to the reader to muse on the virtues of consistency, or otherwise.
 
 _Metric: Quantity over time._
 <br/>
@@ -242,22 +208,29 @@ _Measure: How consistently sized are the work items in a typical iteration?_
 <img width="60%" src="./General images/SizeVariationWorkItemsPerPeriod.drawio.png" />
 </center>
 
-I'm in favor of small work items with little variation in size, when possible.  This allows for more predictability, ability to get the work 'Ready',  a higher 'completion rate' and feeling of productivity, better quality through better testability, and of course, better _consistency_.  It also probably means that the team has enough understanding to create a small enough work item.  There are downsides, such as managing of work items is more cumbersome, difficult to see the forest for the trees, and a sense of 'false-decomposition', but these can be mitigated by well-intending, eager teams, tools such as storymapping, associating work items with high-level epics, and a keen constant eye on the backlog.
+I'm in favor of small work items with little variation in size, when possible.  This allows for more predictability, ability to get the work 'Ready',  a higher 'completion rate' and feeling of productivity, better quality through better testability, and of course, better _predictability_.  It also probably means that the team has enough understanding of the work to create a small enough work item.  There are downsides, such as managing of work items is more cumbersome, difficult to see the forest for the trees, and a sense of 'false-decomposition', but these can be mitigated by well-intending, eager teams, tools such as storymapping, associating work items with high-level epics, and a keen constant eye on the backlog.
+
+_Metric: What is the size variation of your work items?  The **average** will tell you the sizing over a group of workitems, and **standard deviation** will tell you how highly spread around the average the work items are.  You want a low spread; a low standard deviation._
 
 ### DevOps
 Remember that the following metrics are intended to be indicators of high performing teams, and not necessarily of a good, healthy DevOps process; although the two conceptual domains overlap significantly.
 
 #### Commit activity
-Over a period is a short cut indicator towards developer productivity.  Short sharp, small, and constant commits are indicative of a pragmatic, process oriented team.  Several meaningful check-ins per day is good.
+Over a period, this is a short cut indicator towards developer productivity.  Look for and encourage short sharp, small, and constant commits.  These are indicative of a pragmatic, process oriented team.
 
 
 #### Automated tests
-Failing unit, integration and UI tests are an important indicator and metric, and should always be treated seriously and fixed, disabled, or deleted,(reserve deletion for redundant tests)  as soon as possible.
+Failing unit, integration and UI tests are an important indicator and metric, and should always be treated seriously and fixed, disabled, or deleted (reserve deletion for redundant tests), as soon as possible.
 
-_Metric: What is the code coverage for your products?_
+_Metric: What is the code coverage for your products?_<br/>
 _Metric: Are there tests failing today, and if so,which ones?  How many?_<br/>
 _Metric: How many days have these tests been failing for?_<br/>
-     
+
+Another metric related to automated tests is the _time of the team to react to a broken test_.  It may not be the case that all your automated tests form part of the CI pipeline that forces all tests to pass in order to deploy the build to an environment.  Some automated tests, especially ones that require some time to run, sit outside CI and run asynchronously.  These ones can be left unfixed for some time where teams are either unaware, or not correctly incentivised.  The behaviour of jumping on to a failure immediately is a positive indicator.
+
+_Metric: Time to react of a failing automated test?_
+
+
 #### Environmental efficiency - Time to production
 How long does it take to push a fix or feature to production?  Ideally this should be minutes, but it is still not uncommon to hear about environment gateways (think traditional Ops), configurations, environment health, build queues, testing cycles, social policies, that make pushing to production a far lengthier process.
 
@@ -265,22 +238,26 @@ How does this affect team performance?  If the team can't push changes to an env
 
 _Metric: How many minutes, or hours, or days between code commit and a push to production does it take your team?_
 
-#### Release cadence and Release punctuality
-How frequently do you release to production?  While this is still a relevant metric for Continuous Delivery shops, it is more applicable to more traditional organisations. 
+#### Release cadence
+How frequently do you release to production?  While this is still a relevant metric for Continuous Delivery shops, it is more applicable to more traditional organisations. Release frequency is related to quality and a sense of timeliness and focus for a team.  It may very well be that end user agreements/contracts or preferences do not allow for continously changing software to be delivered every week or month.  However, goals of internal release to staging can avoid the problems that are associated with releasing very large chunks of work over long periods of time.  Without delving too deeply here, one of the most significant problems with releasing infrequently is that quality suffers; often greatly.  There is just too much to test in one regression test.  Again, this can be mitigated with the use of internally, more frequent, delivery targets.
 
-_Metric: Release punctuality = Release date - Intended release date_
+_Metric: How frequently do you release your software?_
+
+#### Release punctuality
+
+_Metric: Release punctuality days = Release date - Intended release date_
 
 Your target for Release Punctuality days is zero.
 
 If your release puntuality is a significant issue, and your Intended release date does not follow a regular cadence, one month per release for example, then your first step should be to agree on and target a reasonable cadence of release, if possible.  Irregular release cadence can be a significant contributor to missed release dates.
 
-A resistance for more ambitious release dates, say, even monthly (although some may find this target amusing, many organisations regard this as reasonble, or even hard to achieve) is justified  commonly by 'insuffient time to build a set of features', or 'lengthy and honorous regression cycles'.  Interestingly, some teams resist due to the belief that more time is needed to ensure a quality release. Fortunately, there exists a robust positive correlation between a swift release cadence and release quality. Frequent releases facilitate constant testing and reduce code churn per release, leading to improved overall quality.
+A resistance for more ambitious release dates, say, even monthly (although some may find this target amusing, many organisations regard this as reasonble, and even hard to achieve) is justified commonly by 'insuffient time to build a set of features', or 'lengthy and onorous regression cycles'.  Interestingly, some teams resist due to the belief that more time is needed to ensure a quality release. Fortunately, there exists a robust positive correlation between a swift release cadence and release quality. Frequent releases facilitate constant testing and reduce code churn per release, leading to improved overall quality.  Continuing this discussion will often end up with an understanding that greater investment in automated tests and more investment in deployment environments that are conducive to reliable testing (recreatable, emulative of production) is necessary.
 
 
 #### Regression test cycle time
 It's not uncommon to observe regression test cycles lasting for several days, extending to over a week or more. This prolonged duration is often a compounded result of low *Environmental Efficiency* (as explained earlier).
 
-A protracted regression test cycle is not indicative of a high performing team. Several factors contribute to this, including the likelihood that developers are committing untested code and features while regression testing is ongoing. Also, bugs identified and fixed during the regression cycle may not undergo thorough testing. Additionally, an extended regression test cycle points to inadequacies in the breadth, robustness, or trustworthiness of automated tests, and likely a complete lack of performance tests. Notably, the risk of human error during regression testing increases with the duration of the cycle. For a large product, the maximum target for a manual regression test cycle per person should be less than half a day.
+A protracted regression test cycle is not indicative of a high performing team. Several factors contribute to this, including the likelihood that developers are committing untested code and features while regression testing is ongoing. Also, bugs identified and fixed during the regression cycle may not undergo thorough testing. Additionally, an extended regression test cycle points to inadequacies in the breadth, robustness, or trustworthiness of automated tests, and likely a complete lack of performance tests. Notably, the risk of human error during regression testing increases with the duration of the cycle. For a large product, I like to target the maximum time for a manual regression test cycle per person as less than half a day.
 
 _Metric: What is the duration of the regression test cycle for your product(s)?_
 
@@ -471,6 +448,50 @@ Imagine the opposite situation whereby nobody in the team is covering, whether p
 
 You can simply take note of when these actions occur.  Purposely tallying and publicising this kind of information seems to gamify it to the point of meaninglessness, unfortunately, and I would stay away from that temptation.
 
+#### End user empathy
+This is one of the last metrics in this artcile, but it very well could be one of the first in terms of importance:
+
+How involved are your teams with the end user?  Do they talk to customers?  How often?  How engaged are they?
+
+Dissassociated teams from the end user are unlikely to understand the user's real desires.  They are unlikely to empathise with the end user's frustrations.  And they are less likely to be committed to urgency of delivery and a quality customer outcome.
+
+_Metric: How often do your team members talk to customers over a given period?_
+
+
+### Control and Protectionism
+
+<!-- Undoubtedly the better teams that I've witnessed have a mix of specialists and generalists; whether in the technology stack, or the domain. 
+
+The greater autonomy a team has, generally the better.  Although this notion of autonomy should not be mistaken for no direction.  Direction and autonomy are not mutually exlusive terms. -->
+
+Control, in softare development teams, often comes in the form of protectionism.  Protectionism is exhibited by team members who 'own' areas of work such that no one else typically contributes to it.  An example is the developer who works on an area, noted for its complexity of design and/or domain complexity, and when other members of the team attempt to work in that area, the controller may say:
+
+- oh no, you don't know enough to make changes there
+- just leave that to me, I'll get it done faster
+- it's too complicated
+- the rest of the team doesn't know enough/ have the necessary skills to make changes
+
+and the rest of the team may utter something like:
+- only 'Bob' understands that area
+- I've never worked in that area
+- I just don't understand that area
+- we'll need to wait until 'Bob' is free
+
+and interestingly, the controller may also complain about the fact that:
+- developers are not capable of making changes in the protected area
+- developer throughput is slow and unreliable and of low quality
+- the controller themselves is bottlnecked and unable to do their job for the many questions they are asked and so very many jobs they have to do
+
+Consequentially, the odd metric that falls out of this 'controlling' behaviour is either idle developers, or developers not working on priority areas of work:
+
+_Metric: How often are developers idle or working on non-priority areas of work for waiting for the 'controller' to finish?_
+
+Of course, there are other reasons that people may be working on non-priority areas of work, and these are worth investigating; side-requests from other departments, pet-projects, stealth-ops, disengaged developers, etc.
+
+Other exhibitions of control are the command/control ways of working.  This typically manifests as an experienced developer/technical lead who breaks out tasks for a work item and then assigns people to each task.  These task breakdowns can go rather deep and result in large overhead for the technical lead to research, disseminate, and then monitor the tasks.  Not that these ways are outrightly bad; they have thier place.  But they certainly do not scale well, and certainly don't promote teams that are able to problem solve problems in an innovative manner.  This command and control practice is the antithesis to autonomy. 
+
+_Metric: How many of the workitem tasks that a team are working are set and administered by a central lead figure?_
+
 
 # Conclusion
 
@@ -481,3 +502,33 @@ I've not used metrics to understand how much the team cares about the customer, 
 Keep this quote in mind.  Your preparation and use of metrics can easily turn into a misuse of these very metrics.  With firmness of conviction, persistence, and an educational stance of interpreting the metrics, you can avoid this misuse. In the past, ascertaining and evaluating these metrics has constituted more work than I care to admit.
 
 I apologise for the length of this article.  "I'm sorry I didn't write less but I ran out of time".  I'm curious as to what metrics you have used in the past; please elaborate on your own thoughts either directly (andreas.kacofegitis@gmail.com) or post below.  The art here is not to know what to do, but also when and how you do it.  Instrumenting change is a fun and exciting challenge, but it's probably best to change a little at a time.  Good luck.
+
+
+
+
+# Appendix
+## What is a High Performing team?
+
+The definition of High Performance team is a team that has a high level of productivity and resilience.
+
+Achieving Results: The primary characteristic of a high-performing team is its ability to deliver tangible and measurable results that align with the organisation's goals and objectives. These results often surpass expectations and reflect the team's effectiveness.
+
+Efficiency and Productivity: High-performing teams are known for their efficiency and productivity. They accomplish tasks in a timely manner without sacrificing quality. The team's output is consistently high, and members work together seamlessly to optimize their workflow.
+
+Predictable Delivery: Teams are capable of understanding the value, the complexity and challenges, the risks, and the effort that is necessary to complete a project of work.  They are capable of asking good questions to uncover information that leads to the project's success, and of advising an appropriate strategy for success. 
+
+Adaptable, Well practiced and Dynamic: High-performing teams are able to handle unfamiliar tasks with confidence, curiosity, and fervour.  They have the breadth of experience and are practiced in the patterns of both success and failure such that they are able to apply these patterns alongside their wisdom to achieve a successful result. High-performing teams are adaptable and can navigate challenges and changes effectively. They respond quickly to new information, shifting priorities, and unforeseen obstacles, maintaining a focus on achieving their goals despite external pressures.
+
+Continuous Improvement: A commitment to continuous improvement is a hallmark of high-performing teams. They actively seek ways to enhance their processes, performance, and outcomes. Feedback is valued, and the team is open to making adjustments for better results.
+
+Effective Communication: Communication is clear, open, and frequent within high-performing teams. Team members share information, ideas, and feedback openly. This effective communication ensures that everyone is on the same page and working towards common goals.
+
+Collaboration and Teamwork: High-performing teams excel in collaboration. Members work together cohesively, leveraging each other's strengths and skills. There is a strong sense of unity, and individuals are willing to support one another to achieve shared objectives.
+
+Leadership: Strong leadership is crucial for high-performance. Leaders within the team inspire, motivate, and guide members toward success. They provide direction, set clear expectations, and foster a positive team culture.
+
+Commitment to Quality: High-performing teams prioritize quality in their work. They pay attention to detail, strive for excellence, and take pride in delivering high-quality outcomes. This commitment to quality sets them apart from average teams.
+
+Innovation and Creativity: These teams are not afraid to think outside the box. They encourage innovative thinking and creativity, fostering an environment where new ideas are welcomed, and members feel empowered to explore unconventional solutions.
+
+Positive Team Culture: A positive and supportive team culture is a key defining factor. High-performing teams value diversity, treat each other with respect, and create an inclusive environment where everyone feels valued and appreciated.

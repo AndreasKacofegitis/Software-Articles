@@ -249,7 +249,7 @@ When you lack access to crucial information, consider stating and documenting yo
 ## Transparency
 
 ### Transparency till it hurts
-Transparency seems to be an anaemic term that receives liberal use but little conviction.  Very much like the words 'agile', and 'kindness', for example (oops!  Did I just say that?).  Whether that's deemed a little harsh, transparency is a discipline that struggles to be put into practice.
+Transparency seems to be an anaemic term that receives liberal use but little conviction.  Very much like the words 'agile', and 'kindness', for example (oops!  Did I just say that?).  Whether this is deemed a little harsh or not, transparency is a discipline that struggles to be put into practice.
 
 <div align=center>
 <img src="./General images/stoolOfTransparency.drawio.png" width=150>
@@ -259,8 +259,10 @@ Transparency seems to be an anaemic term that receives liberal use but little co
 
 To be fair, it is simply impossible to be 100% transparent.  If not only because we all have our biases and these biases necessarily affect the portrayal of the disseminated information.  
 
-But one rule of thumb of transparency is: Do your actions of being transparent make it uncomfortable to do so?  Might it be easier to mask over the information?
-###TODO Dan: I'm not clear enough on how to apply that question, could you rephrase or reframe it?###
+But one rule of thumb of transparency is: Do your actions of being transparent sometimes make it uncomfortable to do so?  Might it be easier to mask over the information?
+
+
+### TODO Dan: I'm not clear enough on how to apply that question, could you rephrase or reframe it?###
 
 When being transparent, do you find that in doing so sometimes, you're also being courageous?
 
