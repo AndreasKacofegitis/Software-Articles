@@ -398,7 +398,7 @@ This is a measure of a team's reaction to events, both positive and negative.  I
     - 1s a light emotional reaction, and 
     - 0, none.  
     
-Annecdotally, I performed this exercise recently with my 10 year old favorite girl to highlight that some of her reactions were, shall we say, a little over the top.
+Annecdotally, I performed this exercise recently with my 10 year old favorite girl to highlight that some of her reactions were, shall we say, a little over the top.  The result has been a slightly more measured response to events outside of her control.
 
 Generally speaking, avoiding 2s is beneficial.  This contrived example below is interesting in that it shows a strong reaction to negative events.  What to do about this?  I apologise, but that's an involved topic for another discussion.
 
@@ -414,8 +414,7 @@ Generally speaking, avoiding 2s is beneficial.  This contrived example below is 
 
 
 #### Team Flex, Eagerness and Embracing change 
-This may be a controversial measure, but I will often move people to form new teams, or join an existing team, in order to experiment with the balance of right people to get the job done.  Personalities, experience, eagerness, need for change, accuracy, mindset and attitude, speed, are some of the reasons that it is worth tinkering.  The measure isn't how often, but rather, how accepting are people of this movement?  Looking back at the past, it is one reasons that we've had some success in large project delivery; where teams could be flexed, shaped and changed.  If the culture is healthy, then this kind of thing isn't a big deal but moreso becomes a way that people feel they add real value as their strengths are harnessed.  Notwithstanding the downsides of this approach, I've found this kind of movement a weapon of a high-functioning software development workshop.
-
+This may be a controversial measure, but I will often move people to form new teams, or join an existing team, in order to experiment with the balance of people to get the job done.  Personalities, experience, eagerness, need for change, accuracy, mindset and attitude, speed, are some of the reasons that it is worth tinkering.  The measure isn't how often, but rather, how accepting are people of this movement?  Looking back at the past, it is one of the important reasons that we had success in large project delivery; where teams could be flexed, shaped and changed.  If the culture is healthy, then this kind of thing isn't a big deal but moreso becomes a way that people feel they add real value as their strengths are harnessed.  Notwithstanding the downsides of this approach, I've found this kind of movement a weapon of a high-functioning software development workshop.  Of course, this great flexibility can be pushed too far and become a problem in itself.
 
 
  #### Leadership and Positive resistance
@@ -444,7 +443,7 @@ It's great to see when a team member suggests to another, in a selfless fashion,
 
 Imagine the opposite situation whereby nobody in the team is covering, whether purposefully or not, for anyone else.  Teams end up working as individuals, rather than collectively.  Each weakness is exposed.
 
-You can simply take note of when these actions occur.  Purposely tallying and publicising this kind of information seems to gamify it to the point of meaninglessness, unfortunately, and I would stay away from that temptation.
+You can simply take note of when these actions occur.  Purposely tallying and publicising this kind of information seems to gamify it to the point of meaninglessness, unfortunately, and I would stay away from that temptation.  Gamification of this good behaviour is something that seems to be a good idea, but often seems to achieve the opposite; the 'Thank you' modules in workplace social media systems.  Perhaps you've seen them?  This does not mean that you shouldn't recognise good behavior.
 
 #### End user empathy
 This is one of the last metrics in this artcile, but it very well could be one of the first in terms of importance:
@@ -453,7 +452,7 @@ How involved are your teams with the end user?  Do they talk to customers?  How 
 
 Dissassociated teams from the end user are unlikely to understand the user's real desires.  They are unlikely to empathise with the end user's frustrations.  And they are less likely to be committed to urgency of delivery and a quality customer outcome.
 
-_Metric: How often do your team members talk to customers over a given period?_
+_Metric: How often do your team members interact with customers over a given period?_
 
 
 ### Control and Protectionism
