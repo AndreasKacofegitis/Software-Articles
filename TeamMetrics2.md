@@ -40,7 +40,7 @@ Please keep in mind that I've only lightly tread on each of the following points
       - [Bug severity](#bug-severity)
       - [Speed of response](#speed-of-response)
       - [Rollbacks and fixes](#rollbacks-and-fixes)
-      - [Support tickets How many support tickets have been raised against a specific feature/release?](#support-tickets-how-many-support-tickets-have-been-raised-against-a-specific-featurerelease)
+      - [How many Support Tickets have been raised against a specific feature/release?](#how-many-support-tickets-have-been-raised-against-a-specific-featurerelease)
       - [Helpdesk sentiment](#helpdesk-sentiment)
       - [Helpdesk staff scheduling](#helpdesk-staff-scheduling)
       - [Release confidence and staff scheduling](#release-confidence-and-staff-scheduling)
@@ -249,15 +249,15 @@ _Metric: Release punctuality days = Release date - Intended release date_
 
 Your target for Release Punctuality days is zero.
 
-If your release puntuality is a significant issue, and your Intended release date does not follow a regular cadence, one month per release for example, then your first step should be to agree on and target a reasonable cadence of release, if possible.  Irregular release cadence can be a significant contributor to missed release dates.
+If your release puntuality is a significant issue, and your Intended release date does not follow a regular cadence, one month per release for example, then your first step should be to agree on and target a reasonable cadence of release, if possible.  Irregular release cadence can be a significant contributor to missed release dates.  This is because hitting a release date is a behaviour learned; and it is worth learning this behaviour before progressing on to more ambitious ways of working.
 
-A resistance for more ambitious release dates, say, even monthly (although some may find this target amusing, many organisations regard this as reasonble, and even hard to achieve) is justified commonly by 'insuffient time to build a set of features', or 'lengthy and onorous regression cycles'.  Interestingly, some teams resist due to the belief that more time is needed to ensure a quality release. Fortunately, there exists a robust positive correlation between a swift release cadence and release quality. Frequent releases facilitate constant testing and reduce code churn per release, leading to improved overall quality.  Continuing this discussion will often end up with an understanding that greater investment in automated tests and more investment in deployment environments that are conducive to reliable testing (recreatable, emulative of production) is necessary.
+A resistance for more ambitious release dates, say, even monthly (although some may find this target amusing, many organisations regard this as reasonble, and even hard to achieve) is justified commonly by the exucse of 'insuffient time to build a set of features'.  Another excuse is that 'lengthy and onorous regression cycles' are too cumbersome.  Interestingly, some teams resist due to the belief that more time is needed to ensure a quality release. Fortunately, there exists a robust positive correlation between a regular and timely release cadence and release quality. Frequent releases facilitate constant testing and reduce code churn per release, leading to improved overall quality.  A discussion on this topic with your peers will often end up with an understanding that greater investment in automated tests and more investment in deployment environments that are conducive to reliable testing (recreatable, emulative of production) is necessary.
 
 
 #### Regression test cycle time
 It's not uncommon to observe regression test cycles lasting for several days, extending to over a week or more. This prolonged duration is often a compounded result of low *Environmental Efficiency* (as explained earlier).
 
-A protracted regression test cycle is not indicative of a high performing team. Several factors contribute to this, including the likelihood that developers are committing untested code and features while regression testing is ongoing. Also, bugs identified and fixed during the regression cycle may not undergo thorough testing. Additionally, an extended regression test cycle points to inadequacies in the breadth, robustness, or trustworthiness of automated tests, and likely a complete lack of performance tests. Notably, the risk of human error during regression testing increases with the duration of the cycle. For a large product, I like to target the maximum time for a manual regression test cycle per person as less than half a day.
+A protracted regression test cycle is not indicative of a high performing team. Several factors contribute to this, including the likelihood that developers are committing untested code and features while regression testing is ongoing. Also, bugs identified and then fixed during the regression cycle may not undergo thorough testing. Additionally, an extended regression test cycle points to inadequacies in the breadth, robustness, or trustworthiness of automated tests, and likely a complete lack of performance tests. Notably, the risk of human error during regression testing increases with the duration of the cycle. For a large product, I like to target the maximum time of one half day for one person for a manual regression test cycle.
 
 _Metric: What is the duration of the regression test cycle for your product(s)?_
 
@@ -282,59 +282,58 @@ There are good ways to remedy this, but we'll leave that out of the scope of thi
 How solid are the features that you have delivered?  
 
 #### Bug count
- How many bugs have been identified since your push to production? (Continuous Delivery shops may want a tally of all recorded bugs instead here, or bugs recorded per week, or per month for example). How many bugs are picked up during the testing phase?
+How many bugs have been identified since your push to production? (Continuous Delivery shops may want a tally of all recorded bugs instead here, or bugs recorded per week, or per month for example). How many bugs are picked up during the testing phase?
 
 #### Bug severity
- What is the nature of these bugs?  How crictical are they? A count of critical bugs above zero is cause for action. 
-
+What is the nature of these bugs?  How crictical are they? A count of critical bugs above zero is cause for action. 
 
 #### Speed of response
-  If an urgent bug is broadcast and it is immediately jumped on, you know you on to a good thing.  If the bug languashes and it needs to be followed up multiple times, a team meeting needs to be set up regarding its priority, hmmmm... well, you know... _Time to first response i.e., from initial broadcast of an important bug is a good measure._
+If an urgent bug is broadcast and it is immediately jumped on, you know that you're on to a good thing.  If the bug languashes and it needs to be followed up multiple times, a team meeting needs to be set up regarding its priority, hmmmm... well, you know... _Time to first response i.e., from initial broadcast of an important bug is a good measure._
 
 #### Rollbacks and fixes
- How often do you need to patch fix?  How often do you need to roll back a change?  
+How often do you need to patch fix?  How often do you need to roll back a change?  
 
-#### Support tickets How many support tickets have been raised against a specific feature/release?  
-
-These are important metrics and are useful to contrast against the Quantity metric as well as the Readiness metrics above.  A high Quantity metric indicating a large volume of features that is coupled together with a low Quality metic (I mean that you have a large volume of bugs per feature) is not great, but it beats a low Quantity _and_ low Quality metric.
+#### How many Support Tickets have been raised against a specific feature/release?  
+These are important metrics and are useful to contrast against the Quantity metric as well as the [Readiness metrics above](#amount-of-ready-work-the-beginning-of-the-funnel).  A high Quantity metric indicating a large volume of features that is coupled together with a low Quality metric (I mean that you have a large volume of bugs per feature) is not great, but it beats a low Quantity _and_ low Quality metric.
 
 <center>
 <img src="./General images/QualitySpeedMatrix.png" width="60%" />
 </center>
 
 #### Helpdesk sentiment
-Confidence; lots of bugs in a just-released product, time after time, will cause helpdesk to begin fearing your releases. Helpdesk's confidence in your release is a great measure, but if you need an actual metric, look for _"number of support tickets raised as a consequence of the release"_, and then map these tickets raised over time.
+Lots of bugs in a just-released product, time after time, will cause helpdesk to begin fearing your releases. Helpdesk's confidence in your release is a great measure, but if you need an actual metric, look for _"number of support tickets raised as a consequence of the release"_, and then map these tickets raised over time.
+
+Another metric is to map this helpdesk sentiment over time. 1 - very positive ---  5 - very negative. 
 
 #### Helpdesk staff scheduling
-Are helpdesk scheduling staff each release cycle to cope with the incoming calls?  Or are they feeling easy and happy about the new features?  _Support tickets raised by Helpdesk (that relate to the new release) plotted over time_ are a good measure for this, just as is a good conversation with Helpdesk/Support staff.
+Are helpdesk scheduling staff each release cycle to cope with the incoming calls?  Or are they feeling easy and happy about the new features?  _Support tickets raised by Helpdesk (that relate to the new release) plotted over time_ are a good measure for this (just as is a good conversation with Helpdesk/Support staff).
 
 #### Release confidence and staff scheduling
-A warning sign is when an abundance of the development team are allocated on-call during a release to production in an effort to counter the onslaught of potential bugs that will arise.  By all means, you should stand vigilant, but if your confidence in the quality of your environments and releases causes you to fret and stand-by an innordinate number of your development team as a mitigation exercise to poor quality.  
+A warning sign is when an abundance of the development team are allocated on-call during a release to production in an effort to counter the onslaught of potential bugs that will arise.  By all means, you should stand vigilant, but beware if your confidence in the quality of your environments and releases causes you to fret and stand-by an innordinate number of your development team as a mitigation exercise to poor quality.  
 
-_A simple metric of number of issues found in production within 5 days of a release cycle should work here_.  Reducing this to zero would be a goal.  
-    
+_Metric: number of issues found in production within 5 days of a release cycle should work here_.  Reducing this to zero would be a goal.  
+_Metric: number of staff on-call for a release deployment._    
 
 ## Communication  
 Communication within and between teams is vital.  Between roles and seniority levels.  During planning, problem solving, solutioning, design.  This isn't a comprehesive coverage of communication metrics, but simply things that I've considered and looked at in the past.
 
 ### General comms metrics
 
-There are several comms health measures I tend to use:
-
 #### Whiteboard design 
 When involved concepts need to be discussed; involved designs, resolving difficult bugs, educating about business logic or existing architectures, do people in the team migrate towards a whiteboard, pick up a pen (or mouse) and share scribbles?  This is typically something I promote and like to see happen often because it generally leads to quicker outcomes.
 
 _Metric: How often do people gather around a whiteboard?  Never? Not good.  I can't think of an actual number here, but I'm tempted to say once for each major feature._
 
+It would be useful to determine a corresponding metric and communication medium for remote teams.  I don't have one yet.  I'm tempted to equate virtual whiteboards with physical ones, but I can't say (I don't know) that these are indicative of the same behaviour pattern.
 
 #### Distraction balance
-To me, it is good to see a hive of activity; busy pairs of people sitting at a computer to solve a problem, groups of people in a meeting room for 10 minutes to confirm a nuanced solution.  This is probably a contraversial one, but the measure that I look for is going from quiet where a pin could be heard dropping and everyone behaves like a lone wolf hardly ever interacting with others, to one where I begin to get people murmoring about the office being a bit noisy and that they are finding it difficult to get thier own work done.  Then I tend to adjust to wind back slightly to 'a couple of notches' below that threshold.
+To me, it is good to see a hive of activity; busy pairs of people sitting at a computer to solve a problem, groups of people in a meeting room for 10 minutes to confirm a nuanced solution.  This is probably a contraversial one, but the measure that I look for is going from a quiet environment to one where a pin could be heard dropping, people interact seldomly in the office, and if they do, using online chat tools, to one where I begin to get people murmoring about the office being a bit noisy and that they are finding it difficult to get thier own work done.  I then tend to adjust and wind the interaction dial back slightly to 'a couple of notches' below that threshold.
 
 _Metric: How many times a week do people ask for help or gather to help someone?  Every time they write a line of code 'aint great either.  Take the metric as an observational count (don't get people to record this for you because that's just silly) and compare week for week what the level of interaction is._
 
 
 #### Peer programming
- One of the most productive (and fun) teams that I was involved with had two of the developers almost exclusively peer programming.  Both were talented seniors, but their mix of skillsets and approaches, and willingness to collaborate meant that they were able to achieve more together. Most people that I talk to about this topic treat it with smiling skepticism, but doing this well and doing this right can be a great weapon.  I understand that this is not for everyone, but people do need to be able to, at least time-to-time, share a desktop and a keyboard and solve a problem together.
+One of the most productive (and fun) teams that I was involved with had two of the developers almost exclusively peer programming.  Both were talented seniors, but their mix of skillsets and approaches, and willingness to collaborate meant that they were able to achieve more together. Most people that I talk to about this topic treat it with smiling skepticism, but doing this well and doing this correctly can be a great weapon.  I understand that this is not for everyone, but people do need to be able to, at least time-to-time, share a desktop and a keyboard and solve a problem together.
 
 A side-note here; I would promote and drive the peer programming concept when a team member stubbornly insists, day after day, that they don't need help even though it's clear that they do.  It's a good form of collaboration, and performed well can be a wonderful learning exercise.
 
@@ -342,12 +341,12 @@ _Metric: How often do people sit together to code a solution?  0 : it is worth p
 
 
 ### Meetings
-
+Meetings are structured and organised gatherings of people to exhange an idea and reach an outcome.  Another definition of meetings is that they are a time-efficient alternative to individuals taking their own route to what is otherwise the end-result.  They are very useful tools, but it is unfortunate that this is not always the case with meetings.
 
 #### Length, frequency and purpose
-Short and sharp, or long and circular?  I know which I prefer. We all know what the painfull ones look like.  There are several flavours of bad meeting, but you know it's bad when you hear yourself utterring "that's an hour of my life that I'll never be able to claim back".
+Short and sharp, or long and circular?  I know which I prefer. We all know what painfull meetings look like.  There are several flavours of bad meeting, but you know it's bad when you hear yourself utterring "that's an hour of my life that I'll never be able to claim back".
 
-As a side-note, the below are meant to be points of reflection, not meta-data that you should collect for each meeting every day. DO NOT document every single meeting with regards to this meta-data; and don't task someone to do this for you (please).  Practically, perhaps choose a week or a two-week period.  Look at your calendar to remind yourself of the meetings that your teams have partaken in. Choose a couple of the above metrics e.g., How many meetings over-run the scheduled time?  And how many meetings fulfilled their intended purpose?  Spend 5 minutes to evaluate each meeting against these questions.    We're after useful indicators rather than precise measurement so that you can make adjustments to your meeting practices.
+As a side-note, the below are meant to be points of reflection, not meta-data that you should collect for each meeting every day. _Do not_ document every single meeting with regards to this meta-data; and don't task someone to do this for you (please).  Practically, perhaps choose a week or a two-week period.  Look at your calendar to remind yourself of the meetings that your teams have partaken in. Choose a couple of the below metrics e.g., How many meetings over-run the scheduled time?  And how many meetings fulfilled their intended purpose?  Spend 5 minutes to evaluate each meeting against these questions.    We're after useful indicators rather than precise measurement so that you can make adjustments to your meeting practices.
 
 _Metric: How much time are teams involved in meetings during a typcial week?  Count the hours._
 
@@ -365,14 +364,13 @@ _Metric: How often do meetings not fulfill their intended purpose?_
 
 _Metric: How many of the team members understand the purpose and the intended outcome of the meeting?_
 
-_Metric: How often do you have a meeting to discuss the very same thing that you did a few weeks before?
+_Metric: How often do you have a meeting to discuss the very same thing that you did a few weeks before?_
 
 
 Meetings should have a purpose and an intended outcome.  These need to be stated at the beginning of the meeting.
-
 Having a time constraint is a positive thing; not a negative.  Having not quite enough time is better than having too much time (usually).  People will work a bit harder and more deliberately to achieve an outcome.
 
-So, try experimenting with scheduling shorter meetings.
+The fault with most meetings is that they're too long, not too short.  So, it is worth attempting an experiment with scheduling shorter meetings.
 
 Some good rules of thumb that I've found are;
  1) Don't be afraid of 15 minute meetings. 
@@ -389,7 +387,7 @@ There is a vibe in positive meetings that can be measured in smiles per minute. 
     
 _'How many questions were asked?'... I guess this is a metric of sorts..._  
     
-Zero questions means that either everyone knew everything already, or they were being dictated to, or they couldn't wait to get out of the room.  Having some good quality questions that enhance understanding and even expose interesting and pertinent discussion are good questions, and are indicative of an interested group. 
+Zero questions means that either everyone knew everything already, or they were being spoken at, or they couldn't wait to get out of the room/didn't want to entertain an answer to their question, or didn't feel comfortable asking the question.  Having some good quality questions that enhance understanding and even expose interesting and pertinent discussion are good questions, and are indicative of an interested, and culturally engaged group. 
 
 ## Softer team metrics
 #### Team temperament (the imposter of triumph and disaster)
