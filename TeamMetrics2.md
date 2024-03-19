@@ -5,7 +5,7 @@
 
 The most effective, productive, and engaged teams that I've worked with have used many of the metrics in this article.  While it wasn't appreciated at the time, we did use metrics to drive our behaviours to improve our practice, our processes, and our behaviours. Conversely, the one organisation that resisted the building of systems to promote these metrics, interestingly, was the lowest performing organisation I've witnessed.  Is there a strong correlation between the well-intending use of metrics and team performance?  I think so.  Regardless, employing some of the following metrics in your organisation will, if well-selected, at least not hurt.
 
-Many of the below metrics require the actual data to back them.  It isn't the objective of this article to demonstate how to achieve this, and I generally assume that you have the data at hand.  If you don't, and there were many times that I didn't, the path to discovering the information was very fruitful and enlightening in and of itself.  Often this was hard work, and sometimes required specific development time and effort.  And a great deal of persistence. But always worthwhile.
+Many of the below metrics require the actual data to back them.  It isn't the objective of this article to demonstrate how to achieve this, and I generally assume that you have the data at hand.  If you don't, and there were many times that I didn't, the path to discovering the information was very fruitful and enlightening in and of itself.  Often this was hard work, and sometimes required specific development time and effort.  And a great deal of persistence. But always worthwhile.
 
 My desire is that this article makes you think, and hopefully, that you act.  Whether you agree with my points or not, I'd consider you taking one single action in your workplace a success.
 
@@ -22,7 +22,7 @@ Please keep in mind that I've only lightly tread on each of the following points
     - [Amount of Ready work: The beginning of the funnel](#amount-of-ready-work-the-beginning-of-the-funnel)
   - [Done Work: The end of the funnel](#done-work-the-end-of-the-funnel)
   - [Delivery metrics](#delivery-metrics)
-    - [Predicatablity](#predicatablity)
+    - [Predictability](#predictability)
     - [Project burndown - daily chart](#project-burndown---daily-chart)
     - [Quantity](#quantity)
     - [Consistency of Quantity](#consistency-of-quantity)
@@ -88,7 +88,7 @@ Teams are the hallmark of your success; it's always people and I hope that it wi
 ### How to use these metrics
 Firstly, I need to strongly emphasise that I'm a little bit wary of metrics because they can _easily be mis-used_.  These should be taken with a very large dose of context and also in combination with each other, and also other metrics and observations that you may think, or be aware, of.  This is to say that it wouldn't be a good idea to take just one, or even three, of these metrics and to use them solely to determine the strength of your team.  That would be a mistake and almost certainly give you a poor estimation, either to the upside or the downside, of your team's performance. 
 
-On the other hand, to attempt to track all these metrics suggested below, is itself probably unwise too.  It's probable that you already use, at least, a few of these metrics. But if you read the below and find some metrics that would be beneficial to your workplace, choose 2 or 3, and go from there.  The below is not a prescription, so please don't treat it as such.  Treating this as a prespription will likely cause more issues that you're currently experiencing :).  
+On the other hand, to attempt to track all these metrics suggested below, is itself probably unwise too.  It's probable that you already use, at least, a few of these metrics. But if you read the below and find some metrics that would be beneficial to your workplace, choose 2 or 3, and go from there.  The below is not a prescription, so please don't treat it as such.  Treating this as a prescription will likely cause more issues that you're currently experiencing :).  
 
 Metrics are not the panacea of the determination of team success.  They are simply guides and points for consideration and should always be treated as such.  Simply saying that one is healthy because their heart rate is low at rest is most certainly not a sign of perfect health.  An economy with a very low rate of unemployment says nothing of productivity.  Likewise, metrics in software, of productivity say, are firstly, vague indicators, and secondly don't capture the full picture of team 'goodness'.
 
@@ -116,11 +116,11 @@ If a team exhibits low productivity, it is advisable to look first at the 'the b
 
 Can you begin work that is not well understood?  Yes, you can.  Although typically unintentional, this is a very common approach.  The down-side of this is that it will likely increase your development time.  This is not an invitation to step back to waterfall development, but it is an invitation to ensure that you and your team understand the intention, the scope, the requirements, of your feature increment before you get your tools out and start building.
 
-But how much ready work is necessary?  Just enough - enough so that the team know that they can progress on to the _next set of work-items_ and have a quick conversation to clarify some fine-grained detail, and then begin the implementation in ernest.  Work items further out on the scheduling timeline don't need to be, and shouldn't be, super-refined.  Think of Work Readiness as a narrowing scope where the nearer the scheduled work item gets to the current iteration, the more refined it should be.  Having all items in a backlog ready is not much better than zero items in the backlog ready; the problem is different, but both cases cause great innefficiencies and delays.
+But how much ready work is necessary?  Just enough - enough so that the team know that they can progress on to the _next set of work-items_ and have a quick conversation to clarify some fine-grained detail, and then begin the implementation in ernest.  Work items further out on the scheduling timeline don't need to be, and shouldn't be, super-refined.  Think of Work Readiness as a narrowing scope where the nearer the scheduled work item gets to the current iteration, the more refined it should be.  Having all items in a backlog ready is not much better than zero items in the backlog ready; the problem is different, but both cases cause great inefficiencies and delays.
 
 If you have no items in your current iteration that are deemed ready, your immediate job should be to ensure that these items are ready.  It is likely that this is the most important and useful thing that can be done to ensure productivity and accuracy. 
 
-How ready are your teams?  Count the total items in the current iteration and determine which of these items are/were Ready.  All items in the current iteration should be ready (although for teams that prefer, they could refine thier work on a weekly basis in order to keep the information more current and pertinent).  A further 2 weeks should be nearly ready and planned, and a further month or two should be scheduled, but not completely ready. 
+How ready are your teams?  Count the total items in the current iteration and determine which of these items are/were Ready.  All items in the current iteration should be ready (although for teams that prefer, they could refine their work on a weekly basis in order to keep the information more current and pertinent).  A further 2 weeks should be nearly ready and planned, and a further month or two should be scheduled, but not completely ready. 
 
 <center>
 <img src="./General images/RequirementsScopeOfUncertainty.png" width="60%" />
@@ -145,9 +145,9 @@ _Metric: What percentage of your completed work needs no further steps or work t
 
 ## Delivery metrics
 
-Strive for predicatability of delivery.  Teams that achieve a **predicatable cadence** such that each period they regularly deliver a **good volume of features** such that you can **plan out the near and medium term future**, are doing well. (A period is up to you to define and can be as granular as you want to make it).
+Strive for predictability of delivery.  Teams that achieve a **predictable cadence** such that each period they regularly deliver a **good volume of features** such that you can **plan out the near and medium term future**, are doing well. (A period is up to you to define and can be as granular as you want to make it).
 
-### Predicatablity 
+### Predictability  
 An easy key indicator, or measure, is found in your ability to plan the near future; can you predict with some confidence, a team's ability to deliver work in the future?  Are you able to meet key delivery dates?  Are you able to commit to specific implementations or integrations for your customers or 3rd party integrators? 
 
 _Measure: Can you plan work with confidence into the near future?_ 
@@ -161,7 +161,7 @@ Large projects with firm deadlines are still a thing and often for good reason. 
 <img src="./General images/ProjectBurndown.drawio.png" />
 </center>
 
-Tracked over time, this can be helpful for numerious reasons, but the major one is to indicate the likelihood of meeting the delivery date. 
+Tracked over time, this can be helpful for numerous reasons, but the major one is to indicate the likelihood of meeting the delivery date. 
 Burndowns are useful because they can raise confidence, or otherwise, of realistic delivery dates.  Of scope uncertainty.  Of productivity also.
 
 This is a key metric to share with the team and stakeholders to keep them informed.  
@@ -173,7 +173,7 @@ Other useful metrics that are useful to include in burndowns are:
 - amount of work completed
 - re-estimated work
 
-The above diagram illustrates these metrics.  Scope change can be gleaned by considering the following: if there is no scope change in a project, there should be an equal drop in the amount of remaining work as there is an increase in the amount of closed work.  However, if you see that the amount of closed work is trending well, but the amount of remaining work to do is flat-lining or similar, this is very likely due to scope changes, unforseen work, re-estimations to the upside.  This is the case shown in the diagram where the "Closed" trajectory is not mirrored by the "Open" trajectory.
+The above diagram illustrates these metrics.  Scope change can be gleaned by considering the following: if there is no scope change in a project, there should be an equal drop in the amount of remaining work as there is an increase in the amount of closed work.  However, if you see that the amount of closed work is trending well, but the amount of remaining work to do is flat-lining or similar, this is very likely due to scope changes, unforeseen work, re-estimations to the upside.  This is the case shown in the diagram where the "Closed" trajectory is not mirrored by the "Open" trajectory.
 
 _Metric: How much work is remaining to complete in your current projects?_
 
@@ -239,7 +239,7 @@ How does this affect team performance?  If the team can't push changes to an env
 _Metric: How many minutes, or hours, or days between code commit and a push to production does it take your team?_
 
 #### Release cadence
-How frequently do you release to production?  While this is still a relevant metric for Continuous Delivery shops, it is more applicable to more traditional organisations. Release frequency is related to quality and a sense of timeliness and focus for a team.  It may very well be that end user agreements/contracts or preferences do not allow for continously changing software to be delivered every week or month.  However, goals of internal release to staging can avoid the problems that are associated with releasing very large chunks of work over long periods of time.  Without delving too deeply here, one of the most significant problems with releasing infrequently is that quality suffers; often greatly.  There is just too much to test in one regression test.  Again, this can be mitigated with the use of internally, more frequent, delivery targets.
+How frequently do you release to production?  While this is still a relevant metric for Continuous Delivery shops, it is more applicable to more traditional organisations. Release frequency is related to quality and a sense of timeliness and focus for a team.  It may very well be that end user agreements/contracts or preferences do not allow for continuously changing software to be delivered every week or month.  However, goals of internal release to staging can avoid the problems that are associated with releasing very large chunks of work over long periods of time.  Without delving too deeply here, one of the most significant problems with releasing infrequently is that quality suffers; often greatly.  There is just too much to test in one regression test.  Again, this can be mitigated with the use of internally, more frequent, delivery targets.
 
 _Metric: How frequently do you release your software?_
 
@@ -249,9 +249,9 @@ _Metric: Release punctuality days = Release date - Intended release date_
 
 Your target for Release Punctuality days is zero.
 
-If your release puntuality is a significant issue, and your Intended release date does not follow a regular cadence, one month per release for example, then your first step should be to agree on and target a reasonable cadence of release, if possible.  Irregular release cadence can be a significant contributor to missed release dates.  This is because hitting a release date is a behaviour learned; and it is worth learning this behaviour before progressing on to more ambitious ways of working.
+If your release punctuality is a significant issue, and your Intended release date does not follow a regular cadence, one month per release for example, then your first step should be to agree on and target a reasonable cadence of release, if possible.  Irregular release cadence can be a significant contributor to missed release dates.  This is because hitting a release date is a behaviour learned; and it is worth learning this behaviour before progressing on to more ambitious ways of working.
 
-A resistance for more ambitious release dates, say, even monthly (although some may find this target amusing, many organisations regard this as reasonble, and even hard to achieve) is justified commonly by the exucse of 'insuffient time to build a set of features'.  Another excuse is that 'lengthy and onorous regression cycles' are too cumbersome.  Interestingly, some teams resist due to the belief that more time is needed to ensure a quality release. Fortunately, there exists a robust positive correlation between a regular and timely release cadence and release quality. Frequent releases facilitate constant testing and reduce code churn per release, leading to improved overall quality.  A discussion on this topic with your peers will often end up with an understanding that greater investment in automated tests and more investment in deployment environments that are conducive to reliable testing (recreatable, emulative of production) is necessary.
+A resistance for more ambitious release dates, say, even monthly (although some may find this target amusing, many organisations regard this as reasonable, and even hard to achieve) is justified commonly by the excuse of 'insufficient time to build a set of features'.  Another excuse is that 'lengthy and onerous regression cycles' are too cumbersome.  Interestingly, some teams resist due to the belief that more time is needed to ensure a quality release. Fortunately, there exists a robust positive correlation between a regular and timely release cadence and release quality. Frequent releases facilitate constant testing and reduce code churn per release, leading to improved overall quality.  A discussion on this topic with your peers will often end up with an understanding that greater investment in automated tests and more investment in deployment environments that are conducive to reliable testing (recreatable, emulative of production) is necessary.
 
 
 #### Regression test cycle time
@@ -285,10 +285,10 @@ How solid are the features that you have delivered?
 How many bugs have been identified since your push to production? (Continuous Delivery shops may want a tally of all recorded bugs instead here, or bugs recorded per week, or per month for example). How many bugs are picked up during the testing phase?
 
 #### Bug severity
-What is the nature of these bugs?  How crictical are they? A count of critical bugs above zero is cause for action. 
+What is the nature of these bugs?  How critical are they? A count of critical bugs above zero is cause for action. 
 
 #### Speed of response
-If an urgent bug is broadcast and it is immediately jumped on, you know that you're on to a good thing.  If the bug languashes and it needs to be followed up multiple times, a team meeting needs to be set up regarding its priority, hmmmm... well, you know... _Time to first response i.e., from initial broadcast of an important bug is a good measure._
+If an urgent bug is broadcast and it is immediately jumped on, you know that you're on to a good thing.  If the bug languishes and it needs to be followed up multiple times, a team meeting needs to be set up regarding its priority, hmmmm... well, you know... _Time to first response i.e., from initial broadcast of an important bug is a good measure._
 
 #### Rollbacks and fixes
 How often do you need to patch fix?  How often do you need to roll back a change?  
@@ -309,13 +309,13 @@ Another metric is to map this helpdesk sentiment over time. 1 - very positive --
 Are helpdesk scheduling staff each release cycle to cope with the incoming calls?  Or are they feeling easy and happy about the new features?  _Support tickets raised by Helpdesk (that relate to the new release) plotted over time_ are a good measure for this (just as is a good conversation with Helpdesk/Support staff).
 
 #### Release confidence and staff scheduling
-A warning sign is when an abundance of the development team are allocated on-call during a release to production in an effort to counter the onslaught of potential bugs that will arise.  By all means, you should stand vigilant, but beware if your confidence in the quality of your environments and releases causes you to fret and stand-by an innordinate number of your development team as a mitigation exercise to poor quality.  
+A warning sign is when an abundance of the development team are allocated on-call during a release to production in an effort to counter the onslaught of potential bugs that will arise.  By all means, you should stand vigilant, but beware if your confidence in the quality of your environments and releases causes you to fret and stand-by an inordinate number of your development team as a mitigation exercise to poor quality.  
 
 _Metric: number of issues found in production within 5 days of a release cycle should work here_.  Reducing this to zero would be a goal.  
 _Metric: number of staff on-call for a release deployment._    
 
 ## Communication  
-Communication within and between teams is vital.  Between roles and seniority levels.  During planning, problem solving, solutioning, design.  This isn't a comprehesive coverage of communication metrics, but simply things that I've considered and looked at in the past.
+Communication within and between teams is vital.  Between roles and seniority levels.  During planning, problem solving, solutioning, design.  This isn't a comprehensive coverage of communication metrics, but simply things that I've considered and looked at in the past.
 
 ### General comms metrics
 
@@ -327,7 +327,7 @@ _Metric: How often do people gather around a whiteboard?  Never? Not good.  I ca
 It would be useful to determine a corresponding metric and communication medium for remote teams.  I don't have one yet.  I'm tempted to equate virtual whiteboards with physical ones, but I can't say (I don't know) that these are indicative of the same behaviour pattern.
 
 #### Distraction balance
-To me, it is good to see a hive of activity; busy pairs of people sitting at a computer to solve a problem, groups of people in a meeting room for 10 minutes to confirm a nuanced solution.  This is probably a contraversial one, but the measure that I look for is going from a quiet environment to one where a pin could be heard dropping, people interact seldomly in the office, and if they do, using online chat tools, to one where I begin to get people murmoring about the office being a bit noisy and that they are finding it difficult to get thier own work done.  I then tend to adjust and wind the interaction dial back slightly to 'a couple of notches' below that threshold.
+To me, it is good to see a hive of activity; busy pairs of people sitting at a computer to solve a problem, groups of people in a meeting room for 10 minutes to confirm a nuanced solution.  This is probably a controversial one, but the measure that I look for is going from a quiet environment to one where a pin could be heard dropping, people interact seldomly in the office, and if they do, using online chat tools, to one where I begin to get people murmuring about the office being a bit noisy and that they are finding it difficult to get their own work done.  I then tend to adjust and wind the interaction dial back slightly to 'a couple of notches' below that threshold.
 
 _Metric: How many times a week do people ask for help or gather to help someone?  Every time they write a line of code 'aint great either.  Take the metric as an observational count (don't get people to record this for you because that's just silly) and compare week for week what the level of interaction is._
 
@@ -337,22 +337,22 @@ One of the most productive (and fun) teams that I was involved with had two of t
 
 A side-note here; I would promote and drive the peer programming concept when a team member stubbornly insists, day after day, that they don't need help even though it's clear that they do.  It's a good form of collaboration, and performed well can be a wonderful learning exercise.
 
-_Metric: How often do people sit together to code a solution?  0 : it is worth promoting peer programming as a tool for the right occassion._
+_Metric: How often do people sit together to code a solution?  0 : it is worth promoting peer programming as a tool for the right occasion._
 
 
 ### Meetings
-Meetings are structured and organised gatherings of people to exhange an idea and reach an outcome.  Another definition of meetings is that they are a time-efficient alternative to individuals taking their own route to what is otherwise the end-result.  They are very useful tools, but it is unfortunate that this is not always the case with meetings.
+Meetings are structured and organised gatherings of people to exchange an idea and reach an outcome.  Another definition of meetings is that they are a time-efficient alternative to individuals taking their own route to what is otherwise the end-result.  They are very useful tools, but it is unfortunate that this is not always the case with meetings.
 
 #### Length, frequency and purpose
-Short and sharp, or long and circular?  I know which I prefer. We all know what painfull meetings look like.  There are several flavours of bad meeting, but you know it's bad when you hear yourself utterring "that's an hour of my life that I'll never be able to claim back".
+Short and sharp, or long and circular?  I know which I prefer. We all know what painful meetings look like.  There are several flavours of bad meeting, but you know it's bad when you hear yourself uttering "that's an hour of my life that I'll never be able to claim back".
 
 As a side-note, the below are meant to be points of reflection, not meta-data that you should collect for each meeting every day. _Do not_ document every single meeting with regards to this meta-data; and don't task someone to do this for you (please).  Practically, perhaps choose a week or a two-week period.  Look at your calendar to remind yourself of the meetings that your teams have partaken in. Choose a couple of the below metrics e.g., How many meetings over-run the scheduled time?  And how many meetings fulfilled their intended purpose?  Spend 5 minutes to evaluate each meeting against these questions.    We're after useful indicators rather than precise measurement so that you can make adjustments to your meeting practices.
 
-_Metric: How much time are teams involved in meetings during a typcial week?  Count the hours._
+_Metric: How much time are teams involved in meetings during a typical week?  Count the hours._
 
 _Metric: How often is a meeting started by framing the expected outcome?_
 
-_Metric: How many hour-long meetings are teams involved in during a typcial week?_  
+_Metric: How many hour-long meetings are teams involved in during a typical week?_  
 
 _Metric: What is your default meeting duration?_
 
@@ -398,7 +398,7 @@ This is a measure of a team's reaction to events, both positive and negative.  I
     - 1s a light emotional reaction, and 
     - 0, none.  
     
-Annecdotally, I performed this exercise recently with my 10 year old favorite girl to highlight that some of her reactions were, shall we say, a little over the top.  The result has been a slightly more measured response to events outside of her control.
+Anecdotally, I performed this exercise recently with my 10 year old favorite girl to highlight that some of her reactions were, shall we say, a little over the top.  The result has been a slightly more measured response to events outside of her control.
 
 Generally speaking, avoiding 2s is beneficial.  This contrived example below is interesting in that it shows a strong reaction to negative events.  What to do about this?  I apologise, but that's an involved topic for another discussion.
 
@@ -429,7 +429,7 @@ _Metric: List your leaders and what function they fulfill.  What is the ratio of
 What constitutes a good number of leaders? I don't have a great answer without getting into some detail with regard culture, but consider the following:
 1) each development team needs at least one strong leader, 
 2) as well as a backup leader. 
-3) it is good to think of good Product Owners, Architects, UX desigeners, Test leads, as good, influential, leaders.
+3) it is good to think of good Product Owners, Architects, UX designers, Test leads, as good, influential, leaders.
 
 So, as a rule of thumb, having a good team lead, and a good backup leader in that team, and also if you have good leaders across your major disciples eg., Engineering, Domain expertise, Architecture, UX, Product, you should be in a reasonable position.
 
@@ -437,20 +437,20 @@ And lastly:
 _Do you have a person that could replace you in your role?_
 
 #### Greater than the sum of its parts and masking of weaknesses
- An important indicator that I see emerge out of good teams is how often team members cover for each others' weaknesses, such that the team rarely exposes these weaknesses.  This is a good sign of a great team culture.  It is difficult to measure, I'm sorry, but can be identified during standups and interaction between members offerring to help one another on specific tasks, sometimes stepping outside their own roles to offer advice or help.
+ An important indicator that I see emerge out of good teams is how often team members cover for each others' weaknesses, such that the team rarely exposes these weaknesses.  This is a good sign of a great team culture.  It is difficult to measure, I'm sorry, but can be identified during standups and interaction between members offering to help one another on specific tasks, sometimes stepping outside their own roles to offer advice or help.
 
-It's great to see when a team member suggests to another, in a selfless fashion, that they'll work with that person to peer program this next diffcult part.
+It's great to see when a team member suggests to another, in a selfless fashion, that they'll work with that person to peer program this next difficult part.
 
 Imagine the opposite situation whereby nobody in the team is covering, whether purposefully or not, for anyone else.  Teams end up working as individuals, rather than collectively.  Each weakness is exposed.
 
 You can simply take note of when these actions occur.  Purposely tallying and publicising this kind of information seems to gamify it to the point of meaninglessness, unfortunately, and I would stay away from that temptation.  Gamification of this good behaviour is something that seems to be a good idea, but often seems to achieve the opposite; the 'Thank you' modules in workplace social media systems.  Perhaps you've seen them?  This does not mean that you shouldn't recognise good behavior.
 
 #### End user empathy
-This is one of the last metrics in this artcile, but it very well could be one of the first in terms of importance:
+This is one of the last metrics in this article, but it very well could be one of the first in terms of importance:
 
 How involved are your teams with the end user?  Do they talk to customers?  How often?  How engaged are they?
 
-Dissassociated teams from the end user are unlikely to understand the user's real desires.  They are unlikely to empathise with the end user's frustrations.  And they are less likely to be committed to urgency of delivery and a quality customer outcome.
+Disassociated teams from the end user are unlikely to understand the user's real desires.  They are unlikely to empathise with the end user's frustrations.  And they are less likely to be committed to urgency of delivery and a quality customer outcome.
 
 _Metric: How often do your team members interact with customers over a given period?_
 
@@ -461,7 +461,7 @@ _Metric: How often do your team members interact with customers over a given per
 
 The greater autonomy a team has, generally the better.  Although this notion of autonomy should not be mistaken for no direction.  Direction and autonomy are not mutually exlusive terms. -->
 
-Control, in softare development teams, often comes in the form of protectionism.  Protectionism is exhibited by team members who 'own' areas of work such that no one else typically contributes to it.  An example is the developer who works on an area, noted for its complexity of design and/or domain complexity, and when other members of the team attempt to work in that area, the controller may say:
+Control, in software development teams, often comes in the form of protectionism.  Protectionism is exhibited by team members who 'own' areas of work such that no one else typically contributes to it.  An example is the developer who works on an area, noted for its complexity of design and/or domain complexity, and when other members of the team attempt to work in that area, the controller may say:
 
 - oh no, you don't know enough to make changes there
 - just leave that to me, I'll get it done faster
@@ -477,7 +477,7 @@ and the rest of the team may utter something like:
 and interestingly, the controller may also complain about the fact that:
 - developers are not capable of making changes in the protected area
 - developer throughput is slow and unreliable and of low quality
-- the controller themselves is bottlnecked and unable to do their job for the many questions they are asked and so very many jobs they have to do
+- the controller themselves is bottlenecked and unable to do their job for the many questions they are asked and so very many jobs they have to do
 
 Consequentially, the odd metric that falls out of this 'controlling' behaviour is either idle developers, or developers not working on priority areas of work:
 
@@ -485,7 +485,7 @@ _Metric: How often are developers idle or working on non-priority areas of work 
 
 Of course, there are other reasons that people may be working on non-priority areas of work, and these are worth investigating; side-requests from other departments, pet-projects, stealth-ops, disengaged developers, etc.
 
-Other exhibitions of control are the command/control ways of working.  This typically manifests as an experienced developer/technical lead who breaks out tasks for a work item and then assigns people to each task.  These task breakdowns can go rather deep and result in large overhead for the technical lead to research, disseminate, and then monitor the tasks.  Not that these ways are outrightly bad; they have thier place.  But they certainly do not scale well, and certainly don't promote teams that are able to problem solve problems in an innovative manner.  This command and control practice is the antithesis to autonomy. 
+Other exhibitions of control are the command/control ways of working.  This typically manifests as an experienced developer/technical lead who breaks out tasks for a work item and then assigns people to each task.  These task breakdowns can go rather deep and result in large overhead for the technical lead to research, disseminate, and then monitor the tasks.  Not that these ways are outrightly bad; they have their place.  But they certainly do not scale well, and certainly don't promote teams that are able to problem solve problems in an innovative manner.  This command and control practice is the antithesis to autonomy. 
 
 _Metric: How many of the workitem tasks that a team are working are set and administered by a central lead figure?_
 
